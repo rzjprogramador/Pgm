@@ -1,12 +1,34 @@
-package pgm
+package types_pgm
 
-type Args_Rotativa struct {
+type Args_Dinamico struct {
 	temNaLinguagem         Habilitado
 	linguagem              string
+	dadoViaFuncao          Dado_Gerado_Por_Funcao_Classificatorias
 	referencia             Referencia
 	metodo_Para_NovosTipos Metodo_Para_Novos_Tipos
 	tipo_personal_Novo     Tipo_Personal_Novo
 	ferramentas_Operacoes  Ferramentas_Operacoes
+}
+
+type Dado_Gerado_Por_Funcao_Classificatorias struct {
+	temNaLinguagem Habilitado
+	conceito       Conceito
+	via_Classe     Classe
+	via_Struct     Struct
+	exemplo        Exemplo
+}
+
+type Classe struct {
+	temNaLinguagem Habilitado
+	conceito       Conceito
+	construtor     string
+}
+
+type Struct struct {
+	temNaLinguagem Habilitado
+	conceito       Conceito
+	modelagem      string
+	exemplo        Exemplo
 }
 
 type Referencia struct {

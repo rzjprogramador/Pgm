@@ -1,0 +1,10 @@
+
+
+chamar_artefato_de_outro_pacote: <NOME_DO_PACOTE>.Artefato [ pode chaamr qualquer artefato struct, variavelImportavel, ].
+
+pacotes_e_importacoes: permitido somente um pacote por pasta.
+
+pacotes_se_encontrarem: se uma pasta houver mais que um pacote adicione cada pacote em uma pasta apra se encontrarem.
+
+criar_objeto:
+  de_forma_literalMarretada: "è somente o nome do Objeto ou subojeto e o valor não coloque o nome das chaves.",

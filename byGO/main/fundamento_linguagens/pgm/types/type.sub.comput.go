@@ -1,11 +1,11 @@
-package pgm
+package types_pgm
 
-type Comput_Fixa struct {
+type Comput_Fixo struct {
 	metodologias              Metodologias
 	linguagem                 string
 	dado                      Dado
 	tipo                      Tipo
-	funcao_gera_dado          Funcao_Gera_Dado
+	funcao_gera_dado          Dado_Gerado_Por_Funcao_Classificatorias
 	ferramentasComputacionais FerramentasFuncionais
 }
 
@@ -23,7 +23,6 @@ type Dado struct {
 	valor          string
 	parteDado      string
 	dado           string
-	dadoViaFuncao  Funcao_Gera_Dado
 }
 
 type PalavrasChaveReferencia struct {
@@ -58,27 +57,6 @@ const (
 	NAO_PRIMITIVO
 	PERSONALIZADO_CLASS_STRUCT
 )
-
-type Funcao_Gera_Dado struct {
-	temNaLinguagem Habilitado
-	conceito       Conceito
-	via_Classe     Classe
-	via_Struct     Struct
-	exemplo        Exemplo
-}
-
-type Classe struct {
-	temNaLinguagem Habilitado
-	conceito       Conceito
-	construtor     string
-}
-
-type Struct struct {
-	temNaLinguagem Habilitado
-	conceito       Conceito
-	modelagem      string
-	exemplo        Exemplo
-}
 
 type FerramentasFuncionais struct {
 	temNaLinguagem    Habilitado

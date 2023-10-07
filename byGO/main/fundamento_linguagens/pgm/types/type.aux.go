@@ -1,4 +1,4 @@
-package pgm
+package types_pgm
 
 type Habilitado struct {
 	habilitado bool

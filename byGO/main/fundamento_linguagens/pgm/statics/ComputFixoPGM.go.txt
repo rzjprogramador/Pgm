@@ -1,0 +1,42 @@
+// package statics
+
+// import types_pgm "github.com/rzj/main/fundamento_linguagens/pgm/types"
+
+// var ComputFixoPGM_Universal = types_pgm.Comput_Fixo{
+
+// 	types_pgm.Metodologias{
+// 		types_pgm.Metodologia_Desenho_de_Objeto{
+// 			"campo_que_sera_valor_fixo: marretar o valor,campo_que_sera_dinamico_sofrer_variacoes: receber via parametro.",
+// 		},
+// 	}, // Metodologias
+// 	types_pgm.linguagem{"universal"}, // linguagem
+
+// 	types_pgm.Dado{
+// 		true,
+// 		types_pgm.Conceito{
+// 			"",
+// 		}, // Conceito
+// 		string(""), // valor
+// 		string(""), // parteDado
+// 		string(""), // dado
+// 	}, // Dado
+
+// 	types_pgm.Tipo{
+// 		"temNaLinguagem        Habilitado",
+// 		"conceito              Conceito",
+// 		[]string{"", ""}, // possiveis
+// 		"origem                any //ENUM: primitivo - naoPrimitivo - Personalizado",
+// 		"nome                  string",
+// 		"representacao         string",
+// 		"sintaxe_modo_de_tipar string",
+// 		types_pgm.Exemplo{
+// 			"exemplo",
+// 		},
+// 	}, // Tipo
+
+// 	types_pgm.Dado_Gerado_Por_Funcao_Classificatorias{
+// 		types_pgm.Habilitado{true},
+// 		types_pgm.Conceito{""},
+// 	}, // FuncaoClassificatoria
+
+// }
