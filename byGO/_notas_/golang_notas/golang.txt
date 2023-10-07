@@ -6,5 +6,6 @@ pacotes_e_importacoes: permitido somente um pacote por pasta.
 
 pacotes_se_encontrarem: se uma pasta houver mais que um pacote adicione cada pacote em uma pasta apra se encontrarem.
 
-criar_objeto:
-  de_forma_literalMarretada: "è somente o nome do Objeto ou subojeto e o valor não coloque o nome das chaves.",
+instanciar_criar_objeto:
+  de_forma_marretada_dentro_de_escopoFuncao: "aqui posso chamar nome do campo e nome do Objeto ou SubObjeto para preenchimentos.",
+  de_forma_literalMarretada_fora_escopo: "è somente o nome do Objeto ou subojeto e o valor não coloque o nome das chaves.",

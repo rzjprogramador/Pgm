@@ -1,5 +1,7 @@
 package types_pgm
 
+import "fmt"
+
 type Comput_Fixo struct {
 	metodologias              Metodologias
 	linguagem                 string
