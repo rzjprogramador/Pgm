@@ -1,0 +1,17 @@
+como_funciona: ["1- escrevemos o fonte em arquivo.java", "2- compilamos com javac de java compiler para byteCode que é o que a jvm entende.", "a jvm que é a java virtual machine/ maquina virtual do java ->> recebe o compilado em byteCode que é o arquivo .class e traduz apra os disposititivos que entendem java ex: mobile, tv, web , etc...", ]
+
+compilarParaProducao: ["compilar para byteCode para a Jvm distribuir com javac o arquivo .class gerado. : ```javac ArquivoPrincipal.java```", ]
+
+passar_byteGerado_para_JVM: "o arquivo .class sao bytesCode entao rodar com java NomeArquivoGerado obs: sem o .class SOMENTE O NOME DO ARQUIVO"
+
+rodar_arquivo_na_CLI: "java NomeArquivo.java",
+
+
+criar_projeto_in_vscode: {
+  ide: "vscode",
+  passos: "1- ctr+shift+p // java: // escolhe Create Java Project // escolha o projeto Quarkus | Spring | Maven",
+  tutoriais: ["https://www.youtube.com/watch?v=hD0hPpqa6Zg",]
+}
+nomeclaturas: {
+  nome_da_classe: "o nomeDaClasse tem que ser igual o nome do arquivo <Use PascalCase>.",
+}

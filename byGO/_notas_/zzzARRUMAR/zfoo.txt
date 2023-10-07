@@ -1,0 +1,15 @@
+
+return this.getClass().getName() + ": {" + "\n" +
+  "  key: " + this.atribute + ", \n" +
+  "  key: " + this.atribute + ", \n" +
+  "  key: " + this.atribute + ", \n" +
+    "}";
+
+@Override
+public String toString() {
+  return this.getClass().getName() + ": {" + "\n" +
+  "  key: " + this.atribute + ", \n" +
+  "  key: " + this.atribute + ", \n" +
+  "  key: " + this.atribute + ", \n" +
+  "}";
+}
