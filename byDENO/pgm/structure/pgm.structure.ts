@@ -7,7 +7,7 @@ export class Pgm {
   public comput_fixo: Partial<Comput_Fixo> = PgmComputUniversal.create()
 
   constructor(
-    private args_dinamico: Args_Dinamico,
+    // private args_dinamico: Args_Dinamico,
   ) { }
 
   // criarPgm(args_dinamico: Args_Dinamico) {
@@ -16,4 +16,7 @@ export class Pgm {
 
 }
 
-export const makePgm = (args_dinamico: Args_Dinamico) => new Pgm(args_dinamico)
+export const makePgm = new Pgm()
+// export const makePgm = (args_dinamico: Args_Dinamico) => new Pgm(args_dinamico)
+
+console.log(makePgm)
