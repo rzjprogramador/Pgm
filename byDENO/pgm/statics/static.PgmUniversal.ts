@@ -1,12 +1,15 @@
 import { Dado_Gerado_Por_Funcao_Classificatorias } from "../types/args.ts";
 import { Comput_Fixo, Dado, FerramentasFuncionais, Metodologias, Tipo } from "../types/comput.type.ts";
 
-class PgmComputStatic implements Comput_Fixo {
-  static metodologias: Metodologias = {
+export class PgmComputUniversal implements Partial<Comput_Fixo> {
+
+  public static metodologias: {
     metodologia_desenho_de_objeto: { metodologia_Args_e_Fixos: "", }
   };
-  static linguagem: string = "";
-  static dado: Dado = {
+
+  public static linguagem: "Universal";
+
+  public static dado: Dado = {
     temNaLinguagem: { habilitado: true, },
     conceito: {
       conceito: "",
@@ -15,7 +18,8 @@ class PgmComputStatic implements Comput_Fixo {
     parteDado: "string",
     dado: "string",
   };
-  static tipo: Tipo = {
+
+  public static tipo: Tipo = {
     temNaLinguagem: { habilitado: true },
     conceito: {
       conceito: "",
@@ -27,7 +31,8 @@ class PgmComputStatic implements Comput_Fixo {
     sintaxe_modo_de_tipar: "string",
     exemplo: { exemplo: "Exemplo" },
   };
-  static funcao_gera_dado: Dado_Gerado_Por_Funcao_Classificatorias = {
+
+  public static funcao_gera_dado: Dado_Gerado_Por_Funcao_Classificatorias = {
     temNaLinguagem: { habilitado: true },
     conceito: {
       conceito: "",
@@ -49,9 +54,9 @@ class PgmComputStatic implements Comput_Fixo {
     },
 
     exemplo: { exemplo: "Exemplo" }
-  }
+  };
 
-  static ferramentasComputacionais: FerramentasFuncionais = {
+  public static ferramentasComputacionais: FerramentasFuncionais = {
     temNaLinguagem: { habilitado: true },
     atribuicao: {
       temNaLinguagem: { habilitado: true },
@@ -129,9 +134,10 @@ class PgmComputStatic implements Comput_Fixo {
         },
       },
     },
-    // comparacao: undefined,
-    // controle_de_fluxo: undefined
-  }
+  };
 
+  static create() {
+    return new PgmComputUniversal()
+  }
 
 }
