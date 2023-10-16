@@ -1,0 +1,7 @@
+
+Entidade_Tipo
+  modularizacao:
+    centralizar_dependencias_da_entidade: core/ deps.ts
+  contratos_tipagem: contracts/
+    conceito: tipar os argsDinamicos e os camposComputeFixos
+
