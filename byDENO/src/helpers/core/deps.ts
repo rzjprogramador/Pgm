@@ -1,1 +1,0 @@
-export { Conceito } from "../contracts/aux.types.ts";
