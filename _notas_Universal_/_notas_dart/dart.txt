@@ -1,0 +1,4 @@
+# dart
+pagina_oficial: www.dart.dev
+
+doc_tipos : [ https://dart.dev/language/built-in-types , https://www.devmedia.com.br/sintaxe-dart-tipos-nao-tao-primitivos/40368 ]

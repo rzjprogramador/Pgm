@@ -1,6 +1,8 @@
 # TODA LINGUAGEM TEM
 
 nome,
+plataforma,
+pagina_oficial,
 extensao,
 forma_de_debugar: { no_console, no_debugger }
 sintaxe: {
@@ -11,7 +13,20 @@ sintaxe: {
     metodo: tipoRetornado_nome_valor
     }
 }
-tipos: { tipos_primitivos, tipos_nao_primitivos },
+tipos: {
+  tipos_primitivos : {
+    doc_tipos: [],
+    numeros: { numero_inteiro: "", numero_decimal: "" }
+    caractere_unico:
+    texto:
+    logico,
+    objeto,
+    registro,
+    conjuntos,
+    colecoes,
+    },
+  tipos_nao_primitivos
+  },
 tipos_personalizados_estruturado { estrutura_cria_tipo, }
 
 forma_de_fazer_contrato: "",
