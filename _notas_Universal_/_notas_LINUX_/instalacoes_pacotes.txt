@@ -1,0 +1,3 @@
+
+videos
+editor_de_videos: nome: kdenlive , comando: sudo apt install kdenlive, tutorial: https://www.youtube.com/watch?app=desktop&v=Ay3n6-WdlyI
