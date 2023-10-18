@@ -1,0 +1,19 @@
+# TODA LINGUAGEM TEM
+
+nome,
+extensao,
+forma_de_debugar: { no_console, no_debugger }
+sintaxe: {
+  obrigatorios: { ponto_virgula_sentencas, virgula_ultimo_campo_objeto, aspas_duplas_texto, },
+  assinaturas: {
+    referencia_variavel: tipoRetornado_nome_valor
+    funcao: tipoRetornado_nome_valor
+    metodo: tipoRetornado_nome_valor
+    }
+}
+tipos: { tipos_primitivos, tipos_nao_primitivos },
+tipos_personalizados_estruturado { estrutura_cria_tipo, }
+
+forma_de_fazer_contrato: "",
+forma_criar_instancia_objeto: ""
+
