@@ -2,3 +2,19 @@
 pagina_oficial: www.dart.dev
 
 doc_tipos : [ https://dart.dev/language/built-in-types , https://www.devmedia.com.br/sintaxe-dart-tipos-nao-tao-primitivos/40368 ]
+
+comando_saida: [ { imprimir_no_console: "print( alvo )", }]
+
+sem_valor_NULO : { valor_default: null, representacaoValida: }
+
+permitir_nao_ter_valor_valido_NULO : inserir depois da keyword Tipo uma interrogacao, exemplo: String?,
+
+funcao_palavra_chave_para_funcao: não tem :: usa o tipoRetornado_nome_valor,
+
+palavra_chave_ternario: não precisa faz a condicao direto,
+sintaxe_ternario: Tipo resultado = (alvo LOGICA) ? retornoCaso_TRUE_ACondicao : retornoCaso_FALSE_ACondicao;
+
+exemplo:
+  int resultadoNumerico = (naoTeraValor_NULO == null) ? naoTeraValor_NULO = 0 : naoTeraValor_NULO += 100;
+
+tipo_Data: DateTime ,
