@@ -8,6 +8,9 @@ comando_saida: [ { imprimir_no_console: "print( alvo )", }]
 sem_valor_NULO : { valor_default: null, representacaoValida: }
 
 permitir_nao_ter_valor_valido_NULO : inserir depois da keyword Tipo uma interrogacao, exemplo: String?,
+tipar_retorno_possivel_NULO:
+      resposta: é o mesmo da assinatura o tipo e interrogacao :: Tipo?,
+      exemplo:  String? podeSerNulo() {}
 
 funcao_palavra_chave_para_funcao: não tem :: usa o tipoRetornado_nome_valor,
 

@@ -43,6 +43,10 @@ tipos: {
     depois de especificar no tipo que podera ser nulo voce NÃO podera fazer operacões (incrementar, somar com algo, tudo só podera atribuir preencher com valor ai sim fica liberada porque tera um valor do tipo especificado) então um possivel nulo voce só pode reatribuir preencher valor ou checar e depois de checado fazer algo(operacoes) ,
 
     nao_permitir_ser_nulo: "nao marque no tipo que podera ser nulo"
+    
+    tipar_retorno_possivel_NULO:
+      resposta: ,
+      exemplo:
 
     exemplo: ,
     verificar_se_tem_valor_NAO_e_NULO:
