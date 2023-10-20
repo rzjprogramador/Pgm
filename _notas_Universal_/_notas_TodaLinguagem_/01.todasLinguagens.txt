@@ -12,60 +12,64 @@ forma_de_debugar: { no_console, no_debugger }
 sintaxe: {
   obrigatorios: { ponto_virgula_sentencas, virgula_ultimo_campo_objeto, aspas_duplas_texto, },
   assinaturas: {
-    assinalar: ao assinalar que a referencia sera de um tipo, voce esta dizendo que ela vai retornar um valor que represenat este tipo.
-    referencia_variavel: tipoRetornado_nome_valor
+    assinalar: ao assinalar que a referencia sera de um tipo, voce esta dizendo que ela vai retornar um valor que representar este tipo.
+    referencia_informacao_Unitaria: tipoRetornado_nome_valor
     funcao_palavra_chave_para_funcao: ,
     funcao: tipoRetornado_nome_valor
     metodo: tipoRetornado_nome_valor
 
     }
 }
-tipos: {
-  tipos_primitivos : {
-    conceito,
-    doc_tipos: [],
-    numeros: { numero_inteiro: "", numero_decimal: "" }
-    caractere_unico:
-    texto: { valor_default: , representacaoValida: }
-    logico,
-    objeto,
-    registro,
-    conjuntos,
-    colecoes,
+
+informacao_Unitaria :
+  tipos: {
+    tipos_primitivos : {
+      conceito,
+      doc_tipos: [],
+      numeros: { numero_inteiro: "", numero_decimal: "" }
+      caractere_unico:
+      texto: { valor_default: , representacaoValida: }
+      logico,
+      objeto,
+      registro,
+      conjuntos,
+      colecoes,
+      },
+    tipos_nao_primitivos
+    conceito: A maioria dos tipos Nao primitivos validos são objetos e poderemos usar os membros metodos desencadeados ao assinalar nossa referencia sendo deste tipo.,
+    sem_valor_NULO : {
+      valor_default: ,
+      representacaoValida: ,
+
+      conceito: "permitir_nao_ter_valor_valido_NULO, voce pode explicitar que sera nulo ex: int num = null <MAs isto nao é legal e pode nao compilar porque voce disse que é um int>, uso: tudo que permitimos ser NULO para usar temos que verificar se não é nulo" senão verificar o compilador nao deixa realizar nenhuma operacao ou preencher valor com o que pode ser nulo porque se voce chamar algo que é nulo vai crachar quebrar o programa, por isto tem que verificar e se for nulo amortizar o problema,
+      depois de especificar no tipo que podera ser nulo voce NÃO podera fazer operacões (incrementar, somar com algo, tudo só podera atribuir preencher com valor ai sim fica liberada porque tera um valor do tipo especificado) então um possivel nulo voce só pode reatribuir preencher valor ou checar e depois de checado fazer algo(operacoes) ,
+
+      nao_permitir_ser_nulo: "nao marque no tipo que podera ser nulo"
+
+      tipar_retorno_possivel_NULO:
+        resposta: ,
+        exemplo:
+
+      exemplo: ,
+      verificar_se_tem_valor_NAO_e_NULO:
     },
-  tipos_nao_primitivos
-  conceito: A maioria dos tipos Nao primitivos validos são objetos e poderemos usar os membros metodos desencadeados ao assinalar nossa referencia sendo deste tipo.,
-  sem_valor_NULO : {
-    valor_default: ,
-    representacaoValida: ,
 
-    conceito: "permitir_nao_ter_valor_valido_NULO, voce pode explicitar que sera nulo ex: int num = null <MAs isto nao é legal e pode nao compilar porque voce disse que é um int>, uso: tudo que permitimos ser NULO para usar temos que verificar se não é nulo" senão verificar o compilador nao deixa realizar nenhuma operacao ou preencher valor com o que pode ser nulo porque se voce chamar algo que é nulo vai crachar quebrar o programa, por isto tem que verificar e se for nulo amortizar o problema,
-    depois de especificar no tipo que podera ser nulo voce NÃO podera fazer operacões (incrementar, somar com algo, tudo só podera atribuir preencher com valor ai sim fica liberada porque tera um valor do tipo especificado) então um possivel nulo voce só pode reatribuir preencher valor ou checar e depois de checado fazer algo(operacoes) ,
+    tipo_Data: ,
 
-    nao_permitir_ser_nulo: "nao marque no tipo que podera ser nulo"
-    
-    tipar_retorno_possivel_NULO:
-      resposta: ,
-      exemplo:
+  tipos_personalizados_estruturado {
+    conceito,
+    estrutura_para_cria_tipo,
+    }
 
-    exemplo: ,
-    verificar_se_tem_valor_NAO_e_NULO:
-  },
+===
 
-  tipo_Data: ,
-
-tipos_personalizados_estruturado {
-  conceito,
-  estrutura_para_cria_tipo,
-  }
-
-  ferramentas_funcoes:
-    tomada_decisao:
-      ternario:
-        conceito: faz a logica da condicao ? se der true a condicao faz isto : senao faz isto // obs: um ternario resulta em um valor então o seu resultado tem que ser guardado numa referencia de resultado,
-        palavra_chave_ternario: ,
-        sintaxe_ternario,
-        exemplo: ,
+ferramentas_funcoes:
+  tomada_decisao:
+    ternario:
+      conceito: faz a logica da condicao ? se der true a condicao faz isto : senao faz isto // obs: um ternario resulta em um valor então o seu resultado tem que ser guardado numa referencia de resultado,
+      palavra_chave_ternario: ,
+      sintaxe_ternario,
+      exemplo: ,
 
 
 forma_de_fazer_contrato: "",
