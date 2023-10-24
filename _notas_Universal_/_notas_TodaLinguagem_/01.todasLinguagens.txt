@@ -4,11 +4,16 @@ nome,
 retentora,
 plataforma,
 pagina_oficial,
+
 como_atualizar_ferramenta: [ { no_linux: , tutorial: , }],
+
 pode_fazer: [ { ferramenta, habilitado, } ]
 extensao,
+
 comando_saida: [ { imprimir_no_console, }]
+
 forma_de_debugar: { no_console, no_debugger }
+
 sintaxe: {
   obrigatorios: { ponto_virgula_sentencas, virgula_ultimo_campo_objeto, aspas_duplas_texto, },
   assinaturas: {
@@ -24,6 +29,10 @@ sintaxe: {
 informacao_Unitaria :
   tipos: {
     conceito: "o tipo de uma referencia é importante para poder usar os membros(variavel ou metodo) de operações possiveis conforme o tipo do dado guardado na referencia.",
+
+    pensamento_sempre_antes_de_declarar_uma_referencia: "pense o TIPO do valor que será guardado nesta variavel o NOME e a OPERACAO que fará ex: atribuicao, preparar algo é dentro escopo {}, operacoes conforme o tipo do valor permite.",
+
+    valores_zero_por_default,
 
     tipos_primitivos : {
       conceito,
@@ -67,6 +76,9 @@ informacao_Unitaria :
         detalhes: "Pode assumir qualquer tipo de valor, ser atribuida depois após a declaracao, é o estilo ANY aceita qualquer tipo como preenchimento, posso alterar o tipo do dado tambem ex: se foi preenchido com string depois posso atribuir com numero, não é recomendada #naoBoaPratica use somente em casos especificos quando ainda nao sei qual será seu tipo de dado a ser guardado, o contra é que não permite usar na referencia os membros prototipos do tipo do dado guardado, sempre prefira assinalar qual o tipo do preenchimento, este recurso estilo any tem que ser exporadico de vez em quando quando nao tem jeito. Use em caso de precisar usar referencias externas ex: variavel, objeto de servidor, coisas externas que ainda nao sabe o tipo e quando descobrir corrija e pare de usar coloque o tipo correto . O correto mesmo é declarar sempre o tipo valido que recebera a referencia.",
       },
 
+      demarca_pode_ser_nulo,
+      demarca_afirmo_que_tera_valor_nunca_sera_nulo_confia,
+
       tipos_para_numeros: {
         numero_inteiro: ,
         numero_decimal: ,
@@ -81,6 +93,10 @@ informacao_Unitaria :
     }
 
 ===
+
+valores_padroes_por_default: {
+  parametro_com_valor_default: { sintaxe, detalhes }
+}
 
 ferramentas_funcoes:
   tomada_decisao:
