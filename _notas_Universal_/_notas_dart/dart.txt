@@ -1,6 +1,8 @@
 # dart
 pagina_oficial: www.dart.dev
 
+como_atualizar_ferramenta: [ { no_linux: , tutorial: https://stackoverflow.com/questions/65602656/the-current-dart-sdk-version-is-2-10-4-how-can-i-change-the-version-into-a-uppe, }],
+
 doc_tipos : [ https://dart.dev/language/built-in-types , https://www.devmedia.com.br/sintaxe-dart-tipos-nao-tao-primitivos/40368 ]
 
 comando_saida: [ { imprimir_no_console: "print( alvo )", }]
@@ -11,6 +13,23 @@ permitir_nao_ter_valor_valido_NULO : inserir depois da keyword Tipo uma interrog
 tipar_retorno_possivel_NULO:
       resposta: é o mesmo da assinatura o tipo e interrogacao :: Tipo?,
       exemplo:  String? podeSerNulo() {}
+
+tipo_para_demarcacao: {
+      demarca_referencia_para_ser_inferida_ter_tipo_conforme_preenchimento: {
+        keyword: "var", detalhes: "deixa a referencia inferida para receber qualquer tipo, reatribuivel poder receber outra atribuicao, após a primeira atribuicao nao da pra trocar o tipo, acessa os membros do tipo, mas não é recomendado #naoBoaPratica porque em materia de legibilidade nao mostra explicitamente o tipo que ela vai receber. Use em caso de precisar usar referencias externas ex: variavel, objeto de servidor, coisas externas que ainda nao sabe o tipo e quando descobrir corrija e pare de usar coloque o tipo correto . O correto mesmo é declarar sempre o tipo valido que recebera a referencia.",
+      },
+      dinamica_recebe_qualquer_tipo_estilo_ANY: {
+        keyword: "dynamic",
+        detalhes: "Pode assumir qualquer tipo de valor, ser atribuida depois após a declaracao, é o estilo ANY aceita qualquer tipo como preenchimento, não é recomendada #naoBoaPratica use somente em casos especificos, sempre prefira assinalar qual o tipo do preenchimento, este recurso estilo any tem que ser exporadico de vez em quando quando nao tem jeito. Use em caso de precisar usar referencias externas ex: variavel, objeto de servidor, coisas externas que ainda nao sabe o tipo e quando descobrir corrija e pare de usar coloque o tipo correto. Use em caso de precisar usar referencias externas ex: variavel, objeto de servidor, coisas externas que ainda nao sabe o tipo e quando descobrir corrija e pare de usar coloque o tipo correto . O correto mesmo é declarar sempre o tipo valido que recebera a referencia.",
+      },
+    }
+
+    tipos_para_numeros: {
+        numero_inteiro: int,
+        numero_decimal: double,
+        numero_inteiro_ou_decimal: num,
+        somente_numeros_positivos: #naoTEM,
+      }
 
 funcao_palavra_chave_para_funcao: não tem :: usa o tipoRetornado_nome_valor,
 

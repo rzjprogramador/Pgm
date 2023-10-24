@@ -4,7 +4,7 @@ nome,
 retentora,
 plataforma,
 pagina_oficial,
-como_atualizar_ferramenta: [ { no_linux: , }],
+como_atualizar_ferramenta: [ { no_linux: , tutorial: , }],
 pode_fazer: [ { ferramenta, habilitado, } ]
 extensao,
 comando_saida: [ { imprimir_no_console, }]
@@ -23,10 +23,11 @@ sintaxe: {
 
 informacao_Unitaria :
   tipos: {
+    conceito: "o tipo de uma referencia é importante para poder usar os membros(variavel ou metodo) de operações possiveis conforme o tipo do dado guardado na referencia.",
+
     tipos_primitivos : {
       conceito,
       doc_tipos: [],
-      numeros: { numero_inteiro: "", numero_decimal: "" }
       caractere_unico:
       texto: { valor_default: , representacaoValida: }
       logico,
@@ -42,7 +43,7 @@ informacao_Unitaria :
       representacaoValida: ,
 
       conceito: "permitir_nao_ter_valor_valido_NULO, voce pode explicitar que sera nulo ex: int num = null <MAs isto nao é legal e pode nao compilar porque voce disse que é um int>, uso: tudo que permitimos ser NULO para usar temos que verificar se não é nulo" senão verificar o compilador nao deixa realizar nenhuma operacao ou preencher valor com o que pode ser nulo porque se voce chamar algo que é nulo vai crachar quebrar o programa, por isto tem que verificar e se for nulo amortizar o problema,
-      depois de especificar no tipo que podera ser nulo voce NÃO podera fazer operacões (incrementar, somar com algo, tudo só podera atribuir preencher com valor ai sim fica liberada porque tera um valor do tipo especificado) então um possivel nulo voce só pode reatribuir preencher valor ou checar e depois de checado fazer algo(operacoes) ,
+      depois de especificar no tipo que podera ser nulo voce NÃO podera fazer operacões (incrementar, somar com algo, tudo só podera atribuir preencher com valor ai sim fica liberada porque tera um valor do tipo especificado) então um possivel nulo voce só pode reatribuir preencher valor ou checar e depois de checado fazer algo(operacoes) , resumo: tipo nulo podera nao receber um valor, tem que demarcar com o ? colado depois do tipo e quando for usar verificar se não é nulo a referencia.,
 
       nao_permitir_ser_nulo: "nao marque no tipo que podera ser nulo"
 
@@ -55,6 +56,24 @@ informacao_Unitaria :
     },
 
     tipo_Data: ,
+
+    tipo_para_demarcacao: {
+      demarca_referencia_para_ser_inferida_e_ser_mutavel_regravavel_reatribuida: {
+        keyword: "",
+        detalhes: "deixa a referencia inferida para receber qualquer tipo, reatribuivel poder receber outra atribuicao, após a primeira atribuicao nao da pra trocar o tipo, acessa os membros do tipo, mas não é recomendado #naoBoaPratica porque em materia de legibilidade nao mostra explicitamente o tipo que ela vai receber. Use em caso de precisar usar referencias externas ex: variavel, objeto de servidor, coisas externas que ainda nao sabe o tipo e quando descobrir corrija e pare de usar coloque o tipo correto . O correto mesmo é declarar sempre o tipo valido que recebera a referencia.",
+      },
+      dinamica_recebe_qualquer_tipo_estilo_ANY: {
+        keyword: "",
+        detalhes: "Pode assumir qualquer tipo de valor, ser atribuida depois após a declaracao, é o estilo ANY aceita qualquer tipo como preenchimento, posso alterar o tipo do dado tambem ex: se foi preenchido com string depois posso atribuir com numero, não é recomendada #naoBoaPratica use somente em casos especificos quando ainda nao sei qual será seu tipo de dado a ser guardado, o contra é que não permite usar na referencia os membros prototipos do tipo do dado guardado, sempre prefira assinalar qual o tipo do preenchimento, este recurso estilo any tem que ser exporadico de vez em quando quando nao tem jeito. Use em caso de precisar usar referencias externas ex: variavel, objeto de servidor, coisas externas que ainda nao sabe o tipo e quando descobrir corrija e pare de usar coloque o tipo correto . O correto mesmo é declarar sempre o tipo valido que recebera a referencia.",
+      },
+
+      tipos_para_numeros: {
+        numero_inteiro: ,
+        numero_decimal: ,
+        numero_inteiro_ou_decimal: ,
+        somente_numeros_positivos:
+      }
+    }
 
   tipos_personalizados_estruturado {
     conceito,
