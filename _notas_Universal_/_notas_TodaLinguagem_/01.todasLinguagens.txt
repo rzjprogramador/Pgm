@@ -98,6 +98,14 @@ valores_padroes_por_default: {
   parametro_com_valor_default: { sintaxe, detalhes }
 }
 
+textos: {
+  template_literal_podendo_escrever_em_diversas_linhas: { conceito, exemplo },
+}
+
+OBJETO_diversos_valores_em_um_artefato: {
+  literal: objeto_literal: { detalhe: , exemplo: },
+}
+
 ferramentas_funcoes:
   tomada_decisao:
     ternario:

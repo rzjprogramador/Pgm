@@ -43,6 +43,15 @@ valores_padroes_por_default: {
   parametro_com_valor_default: { sintaxe: { referencia = "valor" }, detalhes: "em dart o parametro default tem que estar dentro de chaves e é atribuido com sinal de igual =" }
 }
 
+textos: {
+  template_literal_podendo_escrever_em_diversas_linhas: {
+    conceito: "em dart são 3 aspas simples no inicio e 3 aspas simples no final pode inserir o template de string no meio.",
+  exemplo: "''' meu template posso pular linhas aqui sem \n ''' ",}
+}
+
+OBJETO_diversos_valores_em_um_artefato: {
+  literal: objeto_literal: { detalhe: "no dart tem que dizer de forma generica que é um Map< passar tipoDaChave que tem que ser String, e tipo do Valor>", exemplo: "List<Map<dynamic, String>> FA = [ {"tom":F", "categoria": "Samba Dolente"," },} ] "
+
 funcao_palavra_chave_para_funcao: não tem :: usa o tipoRetornado_nome_valor,
 
 palavra_chave_ternario: não precisa faz a condicao direto,
