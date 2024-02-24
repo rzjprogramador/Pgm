@@ -60,6 +60,13 @@ const typescript: BaseLinguagemTypes = {
       interpolar_texto_com_variavel: "inserir dentro da string de CRAZES : `textoQualquer ${ nomeDaVariavel }`",
       interpolar_texto_com_variavel_objeto: "inserir dentro da string de CRAZES : ${ varivelObjeto.propriedade }, a diferença é que acrescenta as chaves depois do $ para abrir as props do objeto",
     }
+  },
+  funcao: {
+    keyword_funcao: {
+      funcao_isolada: "function",
+      funcao_isolada_abreviada: "arow function :: atribui uma funcao anonima a uma variavel ex: const nomeFuncao = () => {}",
+      funcao_metodo_em_estrutura: "nao precisa",
+    },
   }
 };
 

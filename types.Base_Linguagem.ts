@@ -1,5 +1,6 @@
-import { Debugger } from "./types/Debugger.ts";
-import { Tipos } from "./types/Tipos.ts";
+import { Debugger } from "./types/Debugger.type.ts";
+import { Tipos } from "./types/Tipos.type.ts";
+import { Funcao } from "./types/Funcao.type.ts";
 
 export interface BaseLinguagemTypes {
   linguagem: string
@@ -7,6 +8,7 @@ export interface BaseLinguagemTypes {
   gerador_novo_objeto: GeradorNovoObjeto
   debugger: Debugger
   tipos: Tipos
+  funcao: Funcao
 }
 
 export interface GeradorNovoObjeto {

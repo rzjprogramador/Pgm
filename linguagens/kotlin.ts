@@ -60,6 +60,13 @@ const kotlin: BaseLinguagemTypes = {
       interpolar_texto_com_variavel: "inserir dentro da string de aspas duplas : $nomeDaVariavel",
       interpolar_texto_com_variavel_objeto: "inserir dentro da string de aspas duplas : ${ varivelObjeto.propriedade }, a diferença é que acrescenta as chaves depois do $ para abrir as props do objeto",
     }
+  },
+  funcao: {
+    keyword_funcao: {
+      funcao_isolada: "fun",
+      funcao_isolada_abreviada: "TODO",
+      funcao_metodo_em_estrutura: "fun",
+    },
   }
 };
 
