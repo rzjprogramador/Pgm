@@ -1,9 +1,9 @@
 import {
   Base_Linguagem
-} from "../master_pgm_universal.ts";
+} from "../struct.Base_Linguagem.ts";
 import {
-  PropsBaseLinguagem, Propriedade
-} from "../master_pgm_universal_types.ts";
+  BaseLinguagemTypes, Propriedade
+} from "../types.Base_Linguagem.ts";
 
 const propriedade_via_construtor_kotlin: Propriedade = {
   tem_que_ter_a_propriedade: true,
@@ -25,7 +25,7 @@ const propriedade_via_metodo_kotlin: Propriedade = {
   devolver: 'TODO'
 }
 
-const kotlin: PropsBaseLinguagem = {
+const kotlin: BaseLinguagemTypes = {
   linguagem: "kotlin",
   precisa_funcao_main: true,
   gerador_novo_objeto: {

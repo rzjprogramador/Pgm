@@ -1,4 +1,4 @@
-export interface PropsBaseLinguagem {
+export interface BaseLinguagemTypes {
   linguagem: string
   precisa_funcao_main: boolean
   gerador_novo_objeto: GeradorNovoObjeto

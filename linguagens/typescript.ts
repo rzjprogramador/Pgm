@@ -1,9 +1,9 @@
 import {
   Base_Linguagem
-} from "../master_pgm_universal.ts";
+} from "../struct.Base_Linguagem.ts";
 import {
-  PropsBaseLinguagem, Propriedade
-} from "../master_pgm_universal_types.ts";
+  BaseLinguagemTypes, Propriedade
+} from "../types.Base_Linguagem.ts";
 
 const propriedade_via_construtor_TS: Propriedade = {
   tem_que_ter_a_propriedade: true,
@@ -25,7 +25,7 @@ const propriedade_via_metodo_TS: Propriedade = {
   devolver: 'retorno a instanciacao da classe com o que recebeu'
 }
 
-const typescript: PropsBaseLinguagem = {
+const typescript: BaseLinguagemTypes = {
   linguagem: "typescript",
   precisa_funcao_main: false,
   gerador_novo_objeto: {
