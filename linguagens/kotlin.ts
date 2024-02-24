@@ -41,13 +41,13 @@ const kotlin: BaseLinguagemTypes = {
       observacoes: "tem 2 formas de debuggar o arquivo.kt, são os .class e os .jar, a diferenca é que o .jar podemos compilar para pasta personalizada.",
       em_pasta_personal: {
         compilar: "kotlinc arquivo.kt -include-runtime -d dist/arquivoDestino.jar",
-        mostrar_no_console: "kotlinc arquivo.kt -include-runtime -d dist/arquivo.jar",
-        detalhes: 'quando compila para pasta personal cria um arquivo .jar com este script'
+        mostrar_no_console: "kotlin dist/arquivo.jar",
+        detalhes: 'para primeiro compilar é o kotlinc - e para mostrar é o kotlin arquivo -- quando compila para pasta personal cria um arquivo .jar com este script'
       },
       no_mesmo_local: {
         compilar: "kotlinc endereco/arquivo.kt",
-        mostrar_no_console: "kotlinc endereco/Main.kt && kotlin MainKt.class",
-        detalhes: "quando compila para mesmo local cria um nomeArquivo Kt.class com este script"
+        mostrar_no_console: "kotlin endereco/Main.kt && kotlin MainKt.class",
+        detalhes: "para primeiro compilar é o kotlinc - e para mostrar é o kotlin arquivo -- quando compila para mesmo local cria um nomeArquivo Kt.class com este script"
       },
 
     }
