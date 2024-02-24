@@ -5,6 +5,7 @@ export interface Debugger {
 
 interface DebuggarViaConsole {
   observacoes: string
+  metodo_mostrar_no_console: string
   em_pasta_personal: CompilarConsole
   no_mesmo_local: CompilarConsole
 }

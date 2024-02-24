@@ -39,6 +39,7 @@ const kotlin: BaseLinguagemTypes = {
   debugger: {
     via_console: {
       observacoes: "tem 2 formas de debuggar o arquivo.kt, são os .class e os .jar, a diferenca é que o .jar podemos compilar para pasta personalizada.",
+      metodo_mostrar_no_console: "println( o_que_vai_mostrar )",
       em_pasta_personal: {
         compilar: "kotlinc arquivo.kt -include-runtime -d dist/arquivoDestino.jar",
         mostrar_no_console: "kotlin dist/arquivo.jar",

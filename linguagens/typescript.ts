@@ -39,6 +39,7 @@ const typescript: BaseLinguagemTypes = {
   debugger: {
     via_console: {
       observacoes: "somente com console.log já é possivel.",
+      metodo_mostrar_no_console: "console.log( o_que_vai_mostrar )",
       em_pasta_personal: {
         compilar: "nao precisa compilar",
         mostrar_no_console: "somente com console.log",
