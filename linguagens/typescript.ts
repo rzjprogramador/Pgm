@@ -35,6 +35,14 @@ const typescript: BaseLinguagemTypes = {
     viaMetodo: {
       propriedade: propriedade_via_metodo_TS
     }
+  },
+  tipos: {
+    texto: {
+      aceita_somente_aspas_duplas: false,
+      template_literals_para_aceitar_interpolacao: "precisa de string formada por CRAZES ao inves de aspas duplas ou simples",
+      interpolar_texto_com_variavel: "inserir dentro da string de CRAZES : `textoQualquer ${ nomeDaVariavel }`",
+      interpolar_texto_com_variavel_objeto: "inserir dentro da string de CRAZES : ${ varivelObjeto.propriedade }, a diferença é que acrescenta as chaves depois do $ para abrir as props do objeto",
+    }
   }
 };
 

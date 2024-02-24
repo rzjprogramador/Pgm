@@ -1,7 +1,10 @@
+import { Tipos } from "./types/Tipos.ts";
+
 export interface BaseLinguagemTypes {
   linguagem: string
   precisa_funcao_main: boolean
   gerador_novo_objeto: GeradorNovoObjeto
+  tipos: Tipos
 }
 
 export interface GeradorNovoObjeto {

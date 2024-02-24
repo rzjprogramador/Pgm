@@ -35,6 +35,14 @@ const kotlin: BaseLinguagemTypes = {
     viaMetodo: {
       propriedade: propriedade_via_metodo_kotlin
     }
+  },
+  tipos: {
+    texto: {
+      aceita_somente_aspas_duplas: true,
+      template_literals_para_aceitar_interpolacao: "Não precisa somente indica a variavel com cifrao ou se for objeto $cifraoNomeObjeto.propriedade.",
+      interpolar_texto_com_variavel: "inserir dentro da string de aspas duplas : $nomeDaVariavel",
+      interpolar_texto_com_variavel_objeto: "inserir dentro da string de aspas duplas : ${ varivelObjeto.propriedade }, a diferença é que acrescenta as chaves depois do $ para abrir as props do objeto",
+    }
   }
 };
 
