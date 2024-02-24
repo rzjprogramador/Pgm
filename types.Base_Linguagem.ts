@@ -1,9 +1,11 @@
+import { Debugger } from "./types/Debugger.ts";
 import { Tipos } from "./types/Tipos.ts";
 
 export interface BaseLinguagemTypes {
   linguagem: string
   precisa_funcao_main: boolean
   gerador_novo_objeto: GeradorNovoObjeto
+  debugger: Debugger
   tipos: Tipos
 }
 

@@ -36,6 +36,22 @@ const typescript: BaseLinguagemTypes = {
       propriedade: propriedade_via_metodo_TS
     }
   },
+  debugger: {
+    via_console: {
+      observacoes: "somente com console.log já é possivel.",
+      em_pasta_personal: {
+        compilar: "nao precisa compilar",
+        mostrar_no_console: "somente com console.log",
+        detalhes: '#NAO_USA'
+      },
+      no_mesmo_local: {
+        compilar: "nao precisa compilar",
+        mostrar_no_console: "nao precisa compilar",
+        detalhes: "#NAO_USA"
+      },
+
+    }
+  },
   tipos: {
     texto: {
       aceita_somente_aspas_duplas: false,
