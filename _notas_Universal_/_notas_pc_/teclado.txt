@@ -1,3 +1,0 @@
-
-no_teclado :
-fazer_simbolo_grau: "ALT GR + ]"

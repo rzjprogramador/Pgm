@@ -1,9 +1,0 @@
-
-### BRACHS
-excluir:
-  1. excluir_local: git branch -d <NOME_BRANCH>
-  1. excluir_remoto: git push origin :$<NOME_BRANCH> ...OU... git push origin --delete <NOME_BRANCH>
-  1. atualizar_repo_apos_acoes: git fetch -p
-
-  1. comando_inteiro_excluir_branch_remoto_local_e_atualizar_repo:
-git branch -d <NOME_BRANCH> && git push origin :$<NOME_BRANCH> && git fetch -p

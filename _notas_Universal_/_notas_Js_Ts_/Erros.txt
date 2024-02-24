@@ -1,5 +1,0 @@
-
-falta_mostrar_conteudo_objeto:
-  sintomas: quando mostrar no console [Object] é porque falta desencadear o subObjeto onde esta querendo mostrar
-  solucao: desencandeia o subobjeto onde esta querendo mostrar.
-

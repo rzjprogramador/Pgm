@@ -1,5 +1,0 @@
-# Significados
-
-informacao_Unitaria : [ variavel, dado, informacao, referencia, referencia_Unitaria, link_para_valor,  ]
-
-agrupado_de_informacoes_Unitarias : [ objeto,  ]

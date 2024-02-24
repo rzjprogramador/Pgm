@@ -1,5 +1,0 @@
-# Conceito PGM Universal
-
-campo_de_colecoes: tudo que o valor for uma colecao tem que ter uma funcao que crie items, e faça CRUD com estes itens nesta colecao.
-
-verificar_se_tem_valor_NAO_e_NULO: [ forma_tradicional: "podemos fazer um if se a referencia nao for == nulo faz o que queremos", forma_moderna: "", ]
