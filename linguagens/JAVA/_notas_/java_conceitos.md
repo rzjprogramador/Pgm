@@ -11,13 +11,7 @@ a estrutura do obj é configurada tudo na classe da padrao linguagem, onde adici
 
 ]
 
-projeto: iniciar com spring initalizr
 
-baixar_dependencias:
-Spring Web : para usar os metodos e anotacoes Rest
-Spring Data JPA : para persistir dados SQL com Spring Data e hibernate
-H2 Database : para criar banco de dados em memoria para testes
-Lombock : para anotacoes de classes get e set automeaticos , instanciar configurar construtor auxiliar vazio.
 
 
 # Modulos_Anottations :

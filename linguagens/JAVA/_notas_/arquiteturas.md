@@ -6,3 +6,7 @@ exemplos: [
   [tdd_spring_byDani](https://github.com/danileao/youtube-tdd-java/tree/v_result)
 
 ]
+
+> INICIO
+1_controller: { 1x1 para cada caso de uso 1 controller } : começar pelo @RestController do Spring Web - o server apra respostas http vai procurar primeiramente essa anotacao e dela a @RequestMapping que vai dar o valor da url da resposta http
+
