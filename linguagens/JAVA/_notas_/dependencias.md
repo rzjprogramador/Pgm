@@ -3,7 +3,6 @@
 gerenciador_de_dependencias:
 maven :
 [doc:](https://maven.apache.org/)
-[comandos_maven: ](https://artefatox.com/comandos-basicos-do-apache-maven/)
 pasta_provedora_de_comandos: /.mvn
 ver_versao: mvn -version
 
