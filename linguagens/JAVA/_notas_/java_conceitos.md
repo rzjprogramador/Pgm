@@ -12,8 +12,13 @@ a estrutura do obj é configurada tudo na classe da padrao linguagem, onde adici
 ]
 
 # Codigo Limpo
-inferencia_de_tipo: usar a keyword var, somente onde esta inicializando dando valor a uma variavel.
+inferencia_de_tipo: add apartir do java 10, usar a keyword var, somente onde esta inicializando dando valor a uma variavel.
+funcao_de_implementacao_interface_de_unico_metodo: Lambda , [tutorial: ](https://www.youtube.com/watch?v=lbCYLgoVpfQ&t=215s)
 
+string_template: add apartir do java 21, tutoriais: [
+  artigo: https://www.baeldung.com/java-21-string-templates,
+  video: https://www.youtube.com/watch?v=_Daq1CrxgPU,
+]
 
 # Modulos_Anottations :
 

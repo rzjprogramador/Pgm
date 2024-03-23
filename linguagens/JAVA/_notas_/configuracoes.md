@@ -1,4 +1,7 @@
 
+versao_da_linguagem : ano: 2023, versao_LTS: 21,
+[Doc_LTS_linguagem: java : ](https://www.oracle.com/br/java/technologies/java-se-support-roadmap.html)
+
 extensoes_java_spring_para_vscode:
 para_o_java: Extension Pack for Java , da microsoft
 para_spring_boot: Spring Boot Extension Pack da VMmwre.com: ja vem 3 extensoes nele o spring Initializr, Spring tools, Spring Dashboard
@@ -17,14 +20,14 @@ no pom.xml
 adicionar_plugins:
 plugin do maven para evitar conflito de versao do maven
 `
-// obs: na tag release insira a versao do java em uso no caso aqui esta para java 17.
+// obs: na tag release insira a versao do java em uso no caso aqui esta para java 21.
 
 <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <release>17</release>
+                    <release>21</release>
                     <compilerArgs>
                         <arg>--enable-preview</arg>
                     </compilerArgs>
