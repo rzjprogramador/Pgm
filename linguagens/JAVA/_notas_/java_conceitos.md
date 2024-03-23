@@ -11,7 +11,8 @@ a estrutura do obj é configurada tudo na classe da padrao linguagem, onde adici
 
 ]
 
-
+# Codigo Limpo
+inferencia_de_tipo: usar a keyword var, somente onde esta inicializando dando valor a uma variavel.
 
 
 # Modulos_Anottations :
