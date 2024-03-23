@@ -1,6 +1,29 @@
 
 versao_da_linguagem : ano: 2023, versao_LTS: 21,
 [Doc_LTS_linguagem: java : ](https://www.oracle.com/br/java/technologies/java-se-support-roadmap.html)
+[informacao_da_jdk_LTS_standard_Edition: ](https://www.oracle.com/java/technolog)
+
+### BAIXAR JDK JAVA
+
+### instalar via JDKMain
+[tutorial :](https://www.youtube.com/watch?v=JQPVAdLKqK8)
+[doc: sdk main como instalar : ](https://sdkman.io/install)
+[como_usar_sdkmain: ](https://sdkman.io/usage)
+
+comandos: [
+    `curl -s "https://get.sdkman.io" | bash`
+    // reinicie o bash com propag
+    `sdk list java`
+    // escolha do java.net -- exemplo: sdk install java <VERSAO_ESCOLHIDA DA LISTA DA COLUNA : identifier DO JDKMAIN>
+    // obs: pra sair do list só digitar >> q
+    `sdk install java 21.0.2-open`
+]
+
+### se for instalar manual :
+[baixar_openjdk_para_linux: ](https://jdk.java.net/21/) // obs: no linux escolher: a versao do java desejado e para o sistema operacional: Linux/x64
+> apos baixar descompacte e insira os arquivo em [/usr/lib/jvm/] e indique o caminho na var JAVA_HOME -- apontada no bash: .run_java personalizado
+ver_versao_java: `java -version`
+
 
 extensoes_java_spring_para_vscode:
 para_o_java: Extension Pack for Java , da microsoft
