@@ -1,7 +1,11 @@
 
 # MAVEN
-gerenciador_de_dependencias: maven
+gerenciador_de_dependencias:
+maven :
 [doc:](https://maven.apache.org/)
+pasta_provedora_de_comandos: /.mvn
+ver_versao: mvn -version
+
 
 repositorio_add_manualmente_deps: https://mvnrepository.com/
 

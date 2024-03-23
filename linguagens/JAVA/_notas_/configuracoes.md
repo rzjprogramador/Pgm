@@ -1,8 +1,10 @@
 
 extensoes_java_spring_para_vscode:
-Spring Boot Extension Pack da VMmwre.com: ja vem 3 extensoes nele o spring Initializr, Spring tools, Spring Dashboard
+para_o_java: Extension Pack for Java , da microsoft
+para_spring_boot: Spring Boot Extension Pack da VMmwre.com: ja vem 3 extensoes nele o spring Initializr, Spring tools, Spring Dashboard
 
-para_funcionar_lombok: extensao no vscode : Lombok Annotations Support for VS Code ,
+
+para_funcionar_lombok: extensao no vscode : Lombok Annotations Support for VS Code obs: #melhor usar o record do java ao inves do lombok,
 
 criar_projeto:
 spring_via_vscode_extensao_pacotes_spring : nao precisa fazer no site do initialzr , pela extensao entao:[ paleta de comandos, spring initialzr maven project, especificar a versao do spring, nomeInvertido com.empresa, nome artefato pacote principal, tipo arquivo build final : jar, versao do java, escolher dependencias plugins que vai usar, escolher a pasta workspace que ficar o projeto]
