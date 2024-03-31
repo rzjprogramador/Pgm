@@ -1,9 +1,9 @@
 import {
   Base_Linguagem
-} from "../struct.Base_Linguagem.ts";
+} from "../../struct.Base_Linguagem.ts";
 import {
   BaseLinguagemTypes, Propriedade
-} from "../types.Base_Linguagem.ts";
+} from "../../types.Base_Linguagem.ts";
 
 const propriedade_via_construtor_TS: Propriedade = {
   tem_que_ter_a_propriedade: true,
