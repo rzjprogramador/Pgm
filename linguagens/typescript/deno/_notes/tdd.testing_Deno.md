@@ -4,10 +4,10 @@ doc: deno testing : https://docs.deno.com/runtime/manual/basics/testing/assertio
 link lib completa asserts deno : https://deno.land/std/assert/mod.ts
 
 lib_Deno_Assert
-modulo_assertThrows : é uma funcao que testa funcoes configuradas apra possivelmente lançar erro com throw.
+modulo_assertThrows : é uma funcao que testa funcoes configuradas para possivelmente lançar erro com throw.
 uso: na funcao assertThrows (
    1º param: insira uma funcao anonima () => { onde dentro dela voce executa a funcaoAlvo },
-   2º param: o tipo d einstancia do erro a ser lançado,
+   2º param: o tipo de instancia do erro a ser lançado,
    3º param: a mensagem configurada no erro lançado,
 
 modulos_afirmacao_de_igualdade_ou_nao
