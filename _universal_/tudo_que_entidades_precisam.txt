@@ -1,0 +1,5 @@
+
+# Tudo que entidades precisam
+- estrutura em objeto
+- computar campos do seu objeto (em um campo ter valor que vem de operacoes dos outros campos proprios)
+-
