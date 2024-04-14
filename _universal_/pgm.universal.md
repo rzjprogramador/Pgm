@@ -9,6 +9,11 @@ valor_fixo: ou vem MARETADO literal, se for em uma estrutura classe decalramos o
 definir_campos_de_objeto_via_estrutura_classe :
 no topo da classe e no construtor definimos os campos que tera o objeto no topo os de valor fixo que nao mudará, e no construtor os dinamicos que mudara conforme o utilizador.
 
+entidades :
+# Tudo que entidades precisam
+- estrutura em objeto
+- computar campos do seu objeto (em um campo ter valor que vem de operacoes dos outros campos proprios)
+
 Algumas linguagens como o [java, ] permite ter mais que 1 construtor se permitir entao crie um vazio sem params, isso é util para instancia-la sem argumentar, ou senao crue um metodo statico wue instancia a classe.
 
 Associacao: TEM UM, na estrutura faco uma prop. receber outra classe, isso resultara em objeto aninhado, onde um campo do obj sera um objeto ao inves de tipo primitivo final,
