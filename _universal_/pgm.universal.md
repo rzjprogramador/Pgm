@@ -153,6 +153,9 @@ arrumar : [ Resolver,  ]
 
 ]
 
+Rotas Api
+- toda informacao que precisa vir do Client sera uma rota
+- para ser uma rota - no minimo precisa da estrutura da entidade - e dela uma funcao que recebera ou devolvera informacoes na rota para preenchimento do solicitante Client
 
 
 
