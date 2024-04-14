@@ -1,17 +1,5 @@
 # PGM UNIVERSAL
 
-Arquiteturas
-
-ESRC [ Entidade Servico Repositorio Controller ], aplicacao em camadas em java ::
-
-pacote_entities / todas classes modelo entidades, tera os campos do obj, sera a entidade no BD,
-
-pacote_services / todos casos de uso das entidades , o casodeUso vai receber via metodo unico execute( recebera o obj da entidade para poder mandar o repo salvar o caso de uso solicitado pra esta entidade,  delegando a um contrato de repositorio via composicao para salvar a acao pra ele.
-
-pacote_repositories / todos repos das entidades vai ter contrato com acoes de caso de uso e classe que vai implementa-lo para servir ao service.
-
-pacote_controllers / todos controllers e tests das entidades , obs: de uma entidade teste somente os controllers porque ele ja vem carregando todas acoes da entidade.
-
 ---
 
 valor_dinamico : é quando o valor vai vir de fora e personalizado,vem de parametro de funcao,  peça por parametro para o utilizador preencher ao seu modo o valor [ se for numa classe peça pelo construtor, se for em uma funcao peca por argumento ]
