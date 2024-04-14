@@ -1,0 +1,326 @@
+# ARRUMAR ==============
+
+LOGGS MUSICAL
+
+rede: "MODELO" , finalidades: ["", ], identidade: "", acesso: "", pass: "", vinculado: "", links: [ "", "", ],  }
+
+
+
+rede: "Google, gmail," , finalidades: ["", ], identidade: "", acesso: "reizao1977@gmail.com", pass: "Rzj-PAPA-MAMA-EU-@", vinculado: "", links: [ "", "", ],  }
+
+rede: "Google, gmail" ,finalidades: ["Gerenciar Musicas Compositor", ],  identidade: "@ReizaoMusic", acesso: "reizaomusic@gmail.com", pass: "",  vinculado: "inicio fone guga 965892412 depois meu 976243818", links:[ "Canal_Youtube: @ReizaoMusic",
+"",
+]  }
+
+rede: "Instagram" , finalidades: ["",], identidade: "@ReizaoCompositor", acesso: "@ReizaoCompositor", pass: "", vinculado: "",  links: [ "", "", ],  }
+
+rede: "Youtube, Gmail" , finalidades: [ "Drive Music", "Playlists Aprendiz Youtube" ], identidade: "@ReizaoCompositor", acesso: "reizaomusical@gmail.com", pass: "Rz..30...@", vinculado: "",  links: [ "", "", ],  }
+
+rede: "BandLab" , finalidades: [ "", ] identidade: "@ReizaoCompositor", acesso: "reizaomusical@gmail.com ", pass: "Rzj30...@",  vinculado: "conta google ReizaoMusical", links: [ "bandLab : "https://www.bandlab.com/library/projects/recent", ""],  }
+
+
+===
+
+novos DECIDIR O QUE FAZER :
+  musical_compositor: reizaocompositor10@gmail.com , pass: Rzj30..@
+
+---
+Nome User disponiveis : [
+
+Instagram
+@ReizaoMusic
+@ReizaoCompositor
+@Reizao010  @Reizao01
+]
+
+spotify : reizao1977@gmail.com // pass: Rzj-30..10@
+
+---
+nomeUser_redes_combinados: reizaomusic [ twitter, instagram, ]
+
+REDES redes :
+
+minhas_redes_musicais: [
+ {
+nome_rede: "facebook",
+cadastro: "reizaomusical@gmail.com",
+pass:" Rzj30...@",
+perfil: "https://www.facebook.com/reinaldoreizaodez" ,
+ marca: "@reinaldoreizaodez",
+},
+
+{
+  nome_rede: "instagram",
+  cadastro:" reizaomusical@gmail.com",
+  pass: "Rzj30...@",
+  perfil: "www.instagram.com/ReizaoMusic",
+  marca: "@ReizaoMusic",
+},
+
+]
+
+palavras_chaves_compositor: [
+reizao, reizaoMusic, reizaoCompositor, ineditas, autorias,  compor, composicao, compositor, musica, musico , sucesso, spotify, deezer, autorais, novo, talento, paradas, hit, parceria, novidade, gustavoLima, pericles, michael, jackson, chitaozinho, garoa, fundoDeQuintal, fundo, quintal, arlindo, arlindoCruz, zeca, emilio, beth, carvalho, belo, art, popular, evidencias, brasil, neymar, cr7, messi, argentina, pele, maradona, galvao, ronaldo, ronaldinho, panico, tv, radio, internet
+]
+
+Claro flex :: pass : Rzj302....@
+sites : gerador_de_sites_google : www.sites.google.com {
+ ativada_conta: rzjprogramador@gmail
+meu_site_composicao: www.sites.google.com/view/reinaldoreizao10
+}
+
+face2023 Facebook : padraorzj@gmail :: R...30...final@
+
+twitter: @reizaomusic // padraorzj@gmail.com // rzjMAMA
+
+instagram : compositor:  www.instagram.com/reizaomusic
+
+---
+contas_antigas_perdidas
+youtube: reinaldotodynho : https://www.youtube.com/@reinaldotodynho/videos
+---
+amazon : {
+Canal_Youtube: @ReizaoMusic
+Telefone_no_Site: www.amazon.com.br
+ log: reizao1977@gmail.com
+pass: gg30...@
+}
+
+casa: {
+leonardo : { youtube: leonardoezacharias@gmail.com , pass: GG30...10, }
+renata: { youtube: santosrenata373@gmail.com, pass: 050104 } { mazon: renata-preti@hotmail.com, pass: 050104Rp }
+Netflix : santosrenata373@gmail.vom, pass: 280581Rp
+}
+
+LINKS_MEUS_ESTUDAR_CURSANDO: [
+"musicoExcel: https://app.lenceacademy.com.br/myAccess" ,
+],
+
+Enel luz casa : padraorzj@gmail.com :: Rzj30...10
+
+====///======
+Curriculo RZJ  - conta rzjprogramador @gmail : https://docs.google.com/document/d/1cYxHfCtELVWI-gzo2nnUjkTBbS8T1cZP0rL447amgw4/edit
+
+twitter: @reizaomusic
+
+plano saude Ambiental 2023 - Notre Dame -Smart 200 :: app GNDI :: pass: Rz..30....10
+
+Hotmart : rzjprogramador@gmail.com :: Rz..30...10
+MeusCursos : https://consumer.hotmart.com/purchase
+
+contas_provedores:
+  google: [
+  rzjprogramador@gmail.com ,
+reizaomusical@gmail , Rz..MAMA,
+rzjvideosum@gmail.com  :: s: Rzj30.. :: -> videos um
+r10programador@gmail.com ,
+
+  emails :
+  [
+"padraorzj  :: s: Rz.. PAI MAE EU",
+reizaomusical :: Rz.. 30...10
+    "rzjpgm@hotmail.com :: s: Rzj30...", => [ github :: RzjMAMA, ]
+    "rzjpgm@gmail.com :: s: Rzj30...",
+"rzjvideosum@gmail.com :: s:Rz..30 "
+],
+
+
+Reddit questões dúvidas PGM : rzjpgm@hotmail.com || reizao99  s:: Rz..30...final@
+
+Udemy :: rzjpgm@hotmail.com --  s:: Rz..30...final@
+
+HOTMART Meus cursos : https://consumer.hotmart.com/
+
+escala ESCALA Ambiental :
+www.ambientaltrans.com.br/ambiental
+
+CURSOS CURSANDO
+
+MUSICA : [
+"Curso Musica cursando  Erick França MusicoExcel : // rzjprogramador@gmail.com :: acess:  Rzj30...
+Aplicativo: Lence Academy vc: https://play.google.com/store/apps/details?id=com.lence.lenceacademy&pli=1
+Acesso direto web : https://app.lenceacademy.com.br/
+https://app.lenceacademy.com.br/myAccess ",
+
+"2 Emmanuel Schmidt Hotmart , tenho no ZAP,  rzjprogramador@gmail.com, desde 27/07/2023",
+
+hotmart: [
+acess: rzjprogramador@gmail.com :: Rz..30...
+cursos_presentes: Dominando Notas Musicais Emmanuel, danilo tornesePGM, backend Node firebase, etc...
+
+],
+
+outra_conta_hotmart: manutencao_pc :
+
+acess: hotmart :: log: padraorzj@gmail.com ::: Rzj30...
+
+cursos_nesta_conta: [
+"Manutencao de Notebook by academia do hardware :
+https://academiadohardware.com/
+ https://www.facebook.com/academiadohardwareoficial/?mibextid=ZbWKwL ",
+
+"DevSamurai",
+
+],
+
+
+linux: cursando prof juliano : https://true.certificacoes.net.br/linuxltc1/
+acess: reizao77,
+
+],
+
+WEBSS
+Baixar_Cursos_Pirate: [
+"https://downloadcursos.top/curso-de-javascript/",
+"",
+],
+
+Cursos_pirate_tops: [
+'"roger_mello_js_cjrm_22:
+https://downloadcursos.top/curso-de-javascript/",
+"",
+],
+
+
+ANTIGOS
+
+RZJ__PESSOAL : 11976243818 - CLARO
+UltimaRecarga_23:  25/01 recarregarAte: marco23
+
+Rzj Vivo : 97391-2861
+UltimaRecarga_23:  25/01 recarregarAte: marco23
+............................
+
+FONE_FILHOS :
+GUGA : 96589 2412 - CLARO -- EMNOME: RZJ
+UltimaRecarga_23:  fevereiro recarregarAte: abril
+----
+LEO : 93962 3922  - CLARO -- EMNOME: RENATA
+UltimaRecarga_23:  25/01 recarregarAte: marco23
+
+/////////////////////////////////////////////////
+
+Colocado em 13/5 -- Maio ( Rzs P e T  + Victor )
+
+
+《《 GMAIL 》》 ::
+
+
+..
+
+{{ ☆☆ PADRAORZJ@GMAIL.COM ☆☆ }}
+
+ ●    Rzj654321
+ Discord
+.................................................
+■      Rzj302010
+Meu face : padraorzj@gmail.com
+Github : ◇ rzjprogramador
+Enel Conta Luz Casa
+................................................
+■ Rzj--MAMA
+
+...................................................
+●        rzj302010
+Firefox login
+Mercado livre
+Linux Login Mint :: Rzj sss= 777777
+Dev media :: reizao77
+................................
+GITHUB -- reizaocompositor
+rdezmarketing@gmail.com
+Rzj302010
+====================
+VS CODE marketplace
+https://marketplace.visualstudio.com/
+reizaofinanceiro@hotmail.com
+--------------------------------------
+DRIVES BACKUPS : driverzj1@gmail.com --rzj--MAMA
+
+Arquivos 2018 --GDrive >>  LojaResinados@gmail.com
+
+padraotv
+familiaeduardozacharias -- gg302010
+
+
+RdezMarketing ---  << DRIVE BACKUPS --CLOUD-- TRABALHO
+LojaResinados  ---  rzjmama
+padraowebmaster
+padraoaztv
+padraologs
+........................................
+FILHOS :
+Leonardo
+leonardoezacharias@gmail.com
+Senha : GG302010
+.......................................
+gugaevictor -- gg302010
+gugazacharias@gmail.com
+
+
+///////////////////////////////////////////////////////
+
+
+HOTMAIL ::
+
+reizaofinanceiro@hotmail.com  --- s:   Rzj   MAMA  (Fone: 11976243818)
+
+..............................................
+
+................................
+RENATA LOVE
+Mercado livre:
+ReizaoRenata -- RdezMarketing@gmail.com
+
+............................
+COREL - VITALICIO
+Serial : DR20R80-EJSBTYE-KTAS82V-FAFA63E
+Email : rdezmarketing@gmail.com
+Senha : rzj302010
+........................................
+
+FACEBOOK usando
+RADD >> Raddpox@gmail.com
+
+...............................
+...............................
+
+.........................................
+Twitch Tv
+Reizao77  --- s :  reizao1977
+........................
+MICROSOFT
+reizaofinanceiro@hotmail.com  --- s: rzjMAMA  (F: 993871201)
+victormsn@outlook.com       s:: victor050104
+===================
+
+FACEBOOK & INSTAGRAM
+
+EPOX RESINAS --  reizaofinanceiro@hotmail.com
+RDEZ MKT ---- rdezmarketing@gmail.com
+REY -----------  raddpox@gmail.com
+VOCEDECORA --- vocedecora77@gmail.com
+AZTV -- padraoaztv@gmail.com
+DIVULGA SHOW - TOISS --  navedigital@gmail.com  --- rzj --MAMA
+UNICA NÃO BLOQUEADA -- padraotv@gmail.com --
+
+
+Adobe = Rzj302010 -- padraorzj@gmail.com  --- padraohd1@gmail.com
+raddpox@gmail.com --- RzjMam
+Fotos Galerias --www.shutterstock.com --raddpox@gmail.com -- gg302010
+Grafica- Giv Online ---- padraorzj@gmail.com  ---  rzj30201
+Facebook -- Pinturas --SERVO -- reizaofinanceiro@hotmail---rzj--Mama
+Facebook -- TV -- reizaonet@hotmail---rzj--Mama
+Futura Im RENATA-- padraorzj --- rz302010
+Futura Im REI : RDEZMARKETING@GMAIL.COM  -- rzj30201
+
+ 5 -- conexaoshow
+6--contato@bondedodoidera.com.br
+
+XVideos = driverzj1@gmail.com  --- rzjMama
+
+=======
+RENATA LOGS
+conta_samsung : pass: 280581Rp
+
+
