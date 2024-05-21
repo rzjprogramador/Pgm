@@ -2,7 +2,7 @@
 - a src da app tera para usar nas entidades [ data/, model/, usecases/ ] -> dentro delas a entidade
 - Criar Entidade [  DE QUEM VAI USAR A APP <fazercom tests: data/EntidadeDados + usecases/CRUD>, ]
 - FormarEntidade: cada entidade tera o model usado pelo usecase e que sera formado por: [data, ]
-- Model <usa> Data & UseCase <usa> Model
+- Model <usa> Data & UseCase <usa> Services <usa> Model
 - Tests: testar o usecase [ cada usecase de crud, ]
 
 
