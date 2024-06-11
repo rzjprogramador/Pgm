@@ -5,7 +5,7 @@ class Universal {
 
   static getArrays() {
     return Arrays.allItems();
-  }
+  }zz
 }
 
 class Informacoes {
