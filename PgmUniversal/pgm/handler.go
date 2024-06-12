@@ -1,20 +1,22 @@
 package pgm
 
-import "fmt"
+import (
+	"github.com/emirpasic/gods/lists/arraylist"
+)
 
-var Items_Pgm = []Pgm{}
+// var Items_Pgm = arraylist.New()
 
-func CreatePgm(p Pgm) string {
-	_ = append(Items_Pgm, p)
-	return fmt.Sprintf("Criado com sucesso! %s")
+func ItemsPgm() *arraylist.List{
+	items := arraylist.New()
+	return items
 }
 
-func GetAllPGM() *[]Pgm {
-	return &Items_Pgm
-
-	// res := []Pgm{}
-	// for _, x := range Items_Pgm {
-	// 	res = []Pgm{x}
-	// }
-	// return res
+func (t Pgm) CreatePgm(p Pgm) string {
+	ItemsPgm().Add(p)
+	return "Criado com sucesso!"
 }
+
+
+// func GetAllPGM() *arraylist.List {
+// 	return Items_Pgm
+// }
