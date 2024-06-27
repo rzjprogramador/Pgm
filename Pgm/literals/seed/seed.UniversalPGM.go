@@ -30,7 +30,7 @@ func Implementacoes() u.Implementacoes {
 			},
 
 			Algoritmos: u.Algoritmos{
-				Metodos_Computaveis: `São metodos/funcoes ligadas a estrutura que criou o tipo - para ser usado basta desencadear com . ponto a instancia que estará cjhamando o metodo/funcao disponivel, obs: toda instancia herda metodos da sua estrutura.`,
+				Metodos_Computaveis: `São metodos/funcoes ligadas a estrutura que criou o tipo - para ser usado basta desencadear com . ponto a instancia que estará chamando o metodo/funcao disponivel, obs: toda instancia herda metodos da sua estrutura, use para poder dar poderes inteligencia as instancias, entre elas poder COMPUTAR Campos, se modificar, Fazer coisas que só quem é deste tipo pode sem precisar de funcoes externas ou soltas, etc.`,
 			},
 		},
 
