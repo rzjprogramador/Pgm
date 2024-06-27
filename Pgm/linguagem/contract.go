@@ -14,6 +14,7 @@ type Linguagem struct {
 	InterfaceDefinicaoDeNovosTipos InterfaceDefinicaoDeNovosTipos
 	Regras                         Regras
 	Recursos                       Recursos
+	Codigo                         Codigo
 }
 
 type Tipos struct {
@@ -87,4 +88,12 @@ type Regras struct {
 
 type Recursos struct {
 	Apelido_Para_Importacoes string
+}
+
+type Codigo struct {
+	Estruturar_NovoTipo_Para_Gerar_Instancia string
+	Gerar_Instancia                          string
+	Campos_Fixo_na_Instancia                 string
+	Campos_Dinamicos_na_Instancia            string
+	Dar_Intelegencia_Ha_Instancia            string
 }

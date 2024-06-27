@@ -28,6 +28,7 @@ type Conceito struct {
 }
 
 type Implementacoes struct {
+	Significados                     Significados
 	Obrigatorio_atualizar            string
 	Log                              string
 	Origem_Campo                     string
@@ -35,7 +36,27 @@ type Implementacoes struct {
 	Gerador_De_Objeto_Via_Construtor Gerador_De_Objeto_Via_Construtor
 	Operacoes                        Operacoes
 	Loop_For                         string
-	Formulas Formulas
+	Formulas                         Formulas
+	CodigoUniversal                  CodigoUniversal
+}
+
+type Significados struct {
+	Computador Computador
+	Linguagem  Linguagem
+	Algoritmos Algoritmos
+}
+
+type Computador struct {
+	O_Computador_entende string
+}
+
+type Linguagem struct {
+	Linguagem_De_Programacao string
+	Linguagem_Compilada      string
+	Linguagem_Interpretada   string
+}
+type Algoritmos struct {
+	Metodos_Computaveis string
 }
 
 type Gerador_De_Objeto_Via_Construtor struct {
@@ -48,4 +69,12 @@ type Operacoes struct {
 
 type Formulas struct {
 	Porcentagem_entre_2_valores string
+}
+
+type CodigoUniversal struct {
+	Objetos Objetos
+}
+
+type Objetos struct {
+	Dar_Inteligencia_Ha_Instancias string
 }

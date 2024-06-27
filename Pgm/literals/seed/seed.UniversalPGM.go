@@ -14,6 +14,26 @@ func QuebraDeLinhas() string {
 
 func Implementacoes() u.Implementacoes {
 	return u.Implementacoes{
+		Significados: u.Significados{
+			Computador: u.Computador{
+				O_Computador_entende: `somente binarios 0 e 1 onde 0 é falso , circuito apagado e 1 é verdadeiro circuito acesso.`,
+			},
+
+			Linguagem: u.Linguagem{
+				Linguagem_De_Programacao: `Linguagem é o idioma onde criaremos o codigo fonte das nossas insyrucoes, e para o pc entender precisara de um interpretador ou um compilador para entregar ao pc em binario.`,
+
+				Linguagem_Compilada: `Sao todas que cokpilamos o codigo fonte para binario, obs: as compiladas sao mais rapidas por ja entregarem em binario e o pc processa naturalmentevmais rapido.
+				Ex: [ C, Golang, python, java,]`,
+
+				Linguagem_Interpretada: `Sao todas que nao compilam para binario, para serem entendidas pelo pc precisa de um interpretador
+				Ex: [ Javascript, typescript,  ]`,
+			},
+
+			Algoritmos: u.Algoritmos{
+				Metodos_Computaveis: `São metodos/funcoes ligadas a estrutura que criou o tipo - para ser usado basta desencadear com . ponto a instancia que estará cjhamando o metodo/funcao disponivel, obs: toda instancia herda metodos da sua estrutura.`,
+			},
+		},
+
 		Obrigatorio_atualizar: `Faça um Wrapper em toda app para que só a possa usar ATUALIZADA - amarre o funcionamento na versao da app.`,
 		Log:                   `crie logs para todas funcoes - para controlar quem esta usando-as`,
 		Origem_Campo:          ` origem_campo : Se o campo ou 1 de seus campos no caso de obj  for somente um primitivo sem inteligencia nao precisa ser gerado por uma estrutura classificatoria, caso contrario se precisar de inteligencia (operacoes, crud, logicas)  faça sua geracao vir de uma estrutura ou classe.`,
@@ -46,6 +66,12 @@ func Implementacoes() u.Implementacoes {
 
 		Formulas: u.Formulas{
 			Porcentagem_entre_2_valores: `https://youtu.be/Jd_wrMJKdQg?si=fg8MWYJrFOQ3koJb`,
+		},
+
+		CodigoUniversal: u.CodigoUniversal{
+			u.Objetos{
+				Dar_Inteligencia_Ha_Instancias: `Criar Metodos_Computaveis que daram acoes as instancias com seus proprios campos - ou seja as informacoes que elas tiverem poderam ser COMPUTADAS entre eles mesmos e gerar resultados. obs: use somente para gerar Computados.`,
+			},
 		},
 	}
 }

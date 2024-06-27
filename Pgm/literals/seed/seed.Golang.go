@@ -81,4 +81,12 @@ var Golang = linguagem.Linguagem{
 		// uso o < u > como um objeto para acessar suas props importadas.
 		`,
 	},
+
+	Codigo: linguagem.Codigo{
+		Estruturar_NovoTipo_Para_Gerar_Instancia: `Criar um struct/estrutura. ex: type NomeDoNovoTipo struct { ... campos doTipo ... }`,
+		Gerar_Instancia:                          `func funcaoNomeDoNovoTipo(t Tipo) { return t}`,
+		Campos_Fixo_na_Instancia:                 `#TODO`,
+		Campos_Dinamicos_na_Instancia:            `#TODO`,
+		Dar_Intelegencia_Ha_Instancia:            `Criar Metodos_Computaveis. ex: `,
+	},
 }

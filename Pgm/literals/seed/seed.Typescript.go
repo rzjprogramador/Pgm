@@ -78,4 +78,12 @@ var Typescript = linguagem.Linguagem{
 		ex_2_apelidar_objeto : import { objetoA: objetoApelido } from "./algumaLugar/"
 		`,
 	},
+
+	Codigo: linguagem.Codigo{
+		Estruturar_NovoTipo_Para_Gerar_Instancia: `Criar uma classe ex: class NomeDoNovoTipo {}`,
+		Gerar_Instancia:                          `const i1 = new NomeDoNovoTipo()`,
+		Campos_Fixo_na_Instancia:                 `na parte alta da classe inserir campos com valores pré-determinados`,
+		Campos_Dinamicos_na_Instancia:            `Receber via constructor parametros que serao so campos dinamicos da intancia ao ser gerada`,
+		Dar_Intelegencia_Ha_Instancia:            `Criar Metodos_Computaveis. ex: `,
+	},
 }
