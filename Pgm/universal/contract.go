@@ -59,6 +59,7 @@ type Linguagem struct {
 type Algoritmos struct {
 	Pensamento_Declaracoes string
 	Metodos_Computaveis string
+	Valor []string
 	Valor_e_seus_Tipos Tipos_Valor
 }
 

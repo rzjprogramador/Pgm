@@ -108,11 +108,11 @@ var Golang = linguagem.Linguagem{
 	},
 
 	Codigo: linguagem.Codigo{
-		Pensamento_Declaracoes:                   `Escopo TalNome - É UMa estrutura { E VAI TER ... } ex: type TalNome struct { tera... } `,
-		Estruturar_NovoTipo_Para_Gerar_Instancia: `Criar um struct/estrutura. ex: type NomeDoNovoTipo struct { ... campos doTipo ... }`,
-		Gerar_Instancia:                          `func funcaoNomeDoNovoTipo(t Tipo) { return t}`,
-		Campos_Fixo_na_Instancia:                 `#TODO`,
-		Campos_Dinamicos_na_Instancia:            `#TODO`,
-		Dar_Intelegencia_Ha_Instancia:            `Criar Metodos_Computaveis. ex: `,
+		Pensamento_Declaracoes:                               `Escopo TalNome - É UMa estrutura { E VAI TER ... } ex: type TalNome struct { tera... } `,
+		Estrutura_Modeladora_de_Objeto_Instancia_de_NovoTipo: `Criar um struct/estrutura. ex: type NomeDoNovoTipo struct { ... campos doTipo ... }`,
+		Gerar_Instancia:                                      `func funcaoNomeDoNovoTipo(t Tipo) { return t}`,
+		Campos_Fixo_na_Instancia:                             `#TODO`,
+		Campos_Dinamicos_na_Instancia:                        `#TODO`,
+		Dar_Intelegencia_Ha_Instancia:                        `Criar Metodos_Computaveis. ex: `,
 	},
 }

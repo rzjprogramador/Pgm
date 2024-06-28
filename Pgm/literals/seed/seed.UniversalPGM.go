@@ -32,6 +32,7 @@ func Implementacoes() u.Implementacoes {
 			Algoritmos: u.Algoritmos{
 				Pensamento_Declaracoes: `Escopo TalNome : É UMA estrutura { E VAI TER ... }`,
 				Metodos_Computaveis:    `São metodos/funcoes ligadas a estrutura que criou o tipo - para ser usado basta desencadear com . ponto a instancia que estará cjhamando o metodo/funcao disponivel, obs: toda instancia herda metodos da sua estrutura.`,
+				Valor:                  []string{"representacao de um tipo", "variavel", "objeto", "funcao que retorna algo"},
 				Valor_e_seus_Tipos: u.Tipos_Valor{
 					Conceito: `o valor singular da origem a inferencia de tipo ( ao preencher uma variavel ela ja se torna o tipo do valor inserido)
 					e na maioria das linguagens a variavel a ser preenchida com valor vira um objeto e seus metodos_herdados prototipos vem da estrutura/classe que criou este tipo e quando esta variavel/objeto é preenchida pode-se desencadear com .ponto para acessar os metodos prototipos deste tipo que tem o poder fazer algo com este tipo de dado/valor.`,

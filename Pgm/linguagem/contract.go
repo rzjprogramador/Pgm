@@ -24,7 +24,7 @@ type Valor struct {
 }
 
 type Tipos struct {
-	Conceito string
+	Conceito              string
 	QualquerValor         TiposProps
 	TextoSingular         TiposProps
 	TextoColecao          TiposProps
@@ -106,10 +106,10 @@ type Recursos struct {
 }
 
 type Codigo struct {
-	Pensamento_Declaracoes                   string
-	Estruturar_NovoTipo_Para_Gerar_Instancia string
-	Gerar_Instancia                          string
-	Campos_Fixo_na_Instancia                 string
-	Campos_Dinamicos_na_Instancia            string
-	Dar_Intelegencia_Ha_Instancia            string
+	Pensamento_Declaracoes                               string
+	Estrutura_Modeladora_de_Objeto_Instancia_de_NovoTipo string
+	Gerar_Instancia                                      string
+	Campos_Fixo_na_Instancia                             string
+	Campos_Dinamicos_na_Instancia                        string
+	Dar_Intelegencia_Ha_Instancia                        string
 }
