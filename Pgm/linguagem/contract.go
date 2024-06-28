@@ -7,7 +7,7 @@ import (
 // tipagem da entidade principal
 type Linguagem struct {
 	Linguagem                      string
-	Tipos                          Tipos
+	Valor                          Valor
 	ObterInformacao                ObterInformacao
 	Colecoes                       Colecoes
 	Libs                           Libs
@@ -17,7 +17,15 @@ type Linguagem struct {
 	Codigo                         Codigo
 }
 
+type Valor struct {
+	Declaracao_Completa string
+	Declaracao_Inferida string
+	Tipos_de_Valor      Tipos
+}
+
 type Tipos struct {
+	Conceito string
+	QualquerValor         TiposProps
 	TextoSingular         TiposProps
 	TextoColecao          TiposProps
 	TextoEmGeral          TextoEmGeral
@@ -25,7 +33,10 @@ type Tipos struct {
 	NumeroInteiroColecao  TiposProps
 	NumeroDecimalSingular TiposProps
 	NumerodecimalColecao  TiposProps
-	QualquerValor         TiposProps
+	// Numero_Inteiro_SomentePositivo TiposProps
+	// Numero_Complexo TiposProps
+	// Logico TiposProps
+
 }
 
 type TextoEmGeral struct {
@@ -33,9 +44,13 @@ type TextoEmGeral struct {
 }
 
 type TiposProps struct {
-	Contrato                 string
-	ComoUsar                 string
+	Tipo_Contrato            string
+	Represenatcao_ComoUsar   string
 	Interpolacao_De_Variavel string
+	Doc                      string
+	Metodos_Prototipos       []string
+
+	// representacao: , tipo: , doc: , metodos: ,
 }
 
 type ObterInformacao struct {
@@ -91,6 +106,7 @@ type Recursos struct {
 }
 
 type Codigo struct {
+	Pensamento_Declaracoes                   string
 	Estruturar_NovoTipo_Para_Gerar_Instancia string
 	Gerar_Instancia                          string
 	Campos_Fixo_na_Instancia                 string

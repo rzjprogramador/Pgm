@@ -44,6 +44,7 @@ type Significados struct {
 	Computador Computador
 	Linguagem  Linguagem
 	Algoritmos Algoritmos
+	Dev Dev
 }
 
 type Computador struct {
@@ -56,7 +57,29 @@ type Linguagem struct {
 	Linguagem_Interpretada   string
 }
 type Algoritmos struct {
+	Pensamento_Declaracoes string
 	Metodos_Computaveis string
+	Valor_e_seus_Tipos Tipos_Valor
+}
+
+type Tipos_Valor struct {
+	Conceito string
+	QualquerValor         string
+	TextoSingular         string
+	TextoColecao          string
+	TextoEmGeral          string
+	NumeroInteiroSingular string
+	NumeroInteiroColecao  string
+	NumeroDecimalSingular string
+	NumerodecimalColecao  string
+	Numero_Inteiro_SomentePositivo string
+	Numero_Complexo string
+	Logico string
+
+}
+
+type Dev struct {
+	Lib []string
 }
 
 type Gerador_De_Objeto_Via_Construtor struct {

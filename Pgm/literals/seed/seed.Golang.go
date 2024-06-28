@@ -4,43 +4,68 @@ import "github.com/rzjprogramador/Pgm_Universal/Pgm/linguagem"
 
 var Golang = linguagem.Linguagem{
 	Linguagem: "Golang",
-	Tipos: linguagem.Tipos{
-		TextoSingular: linguagem.TiposProps{
-			Contrato:                 "string",
-			ComoUsar:                 " dentro de 2 aspas",
-			Interpolacao_De_Variavel: "%s",
-		},
-		TextoColecao: linguagem.TiposProps{
-			Contrato:                 "[]string",
-			ComoUsar:                 "[]string{ \"\", \"\",}",
-			Interpolacao_De_Variavel: "todo",
-		},
-		TextoEmGeral: linguagem.TextoEmGeral{
-			QuebraDeLinha: "Dentro de Aspas/crazes ex: `texto em cada linha aqui sem precisar usar \n a cada fim de linha desejada`"},
-		NumeroInteiroSingular: linguagem.TiposProps{
-			Contrato:                 "int64",
-			ComoUsar:                 "somente numero, ex: 10",
-			Interpolacao_De_Variavel: "%d",
-		},
-		NumeroInteiroColecao: linguagem.TiposProps{
-			Contrato:                 "[]int64",
-			ComoUsar:                 "[]int64{ \"\", \"\",}",
-			Interpolacao_De_Variavel: "todo",
-		},
-		NumeroDecimalSingular: linguagem.TiposProps{
-			Contrato:                 "float64",
-			ComoUsar:                 "somente numerocom ponto flutuante, ex: 10",
-			Interpolacao_De_Variavel: "%.2f - explicacao: por padrao o %f exibe 6 casas decimais - vc pode definir quantas casas quer mostrar após o % com ponto numeroDecasas e o f - exemplo: %2.f vai mostrar 2 numeros depois do ponto.",
-		},
-		NumerodecimalColecao: linguagem.TiposProps{
-			Contrato:                 "[]float64",
-			ComoUsar:                 "[]float64{ 10, 20, 30}",
-			Interpolacao_De_Variavel: "naoTem",
-		},
-		QualquerValor: linguagem.TiposProps{
-			Contrato:                 "[]any",
-			ComoUsar:                 "[]any{ 10, 20, 30}",
-			Interpolacao_De_Variavel: "%v",
+	Valor: linguagem.Valor{
+		Declaracao_Completa: `var Nome = "valor"`,
+		Declaracao_Inferida: `nome := "valor"`,
+		Tipos_de_Valor: linguagem.Tipos{
+			Conceito: `em golang por default a variavel com valor nNÃO vira um objeto desencadeavel para acessar seus metodos herdados
+			os metodos de cada tipo vem do objeto importavel correspondente ao tipo do valor ex: para usar
+			metodos para string importamos [ o objeto string, para numero number, para matematica math, ] e usamos o objeto e deste objeto desencadeamos seus metodos string.METODO_HERDADO()
+
+			METODOS_PROTOTIPOS : algumas funcoes para todos os tipos estao soltas na linguagem ex: para ver tamanho o length é a funcao solat len( alvo )
+
+			`,
+			TextoSingular: linguagem.TiposProps{
+				Tipo_Contrato:            "string",
+				Represenatcao_ComoUsar:   " dentro de 2 aspas",
+				Interpolacao_De_Variavel: "%s",
+				Doc:                      `#TODO`,
+				Metodos_Prototipos:       []string{"pacote prototipos : strings https://pkg.go.dev/strings"},
+			},
+			TextoColecao: linguagem.TiposProps{
+				Tipo_Contrato:            "[]string",
+				Represenatcao_ComoUsar:   "[]string{ \"\", \"\",}",
+				Interpolacao_De_Variavel: "todo",
+				Doc:                      `#TODO`,
+				Metodos_Prototipos:       []string{`#TODO`},
+			},
+			TextoEmGeral: linguagem.TextoEmGeral{
+				QuebraDeLinha: "Dentro de Aspas/crazes ex: `texto em cada linha aqui sem precisar usar \n a cada fim de linha desejada`"},
+			NumeroInteiroSingular: linguagem.TiposProps{
+				Tipo_Contrato:            "int64",
+				Represenatcao_ComoUsar:   "somente numero, ex: 10",
+				Interpolacao_De_Variavel: "%d",
+				Doc:                      `https://go.dev/tour/basics/11`,
+				Metodos_Prototipos:       []string{"pacote prototipos number: https://pkg.go.dev/golang.org/x/text/number", "matematica https://pkg.go.dev/math"},
+			},
+			NumeroInteiroColecao: linguagem.TiposProps{
+				Tipo_Contrato:            "[]int64",
+				Represenatcao_ComoUsar:   "[]int64{ \"\", \"\",}",
+				Interpolacao_De_Variavel: "todo",
+				Doc:                      `#TODO`,
+				Metodos_Prototipos:       []string{`#TODO`},
+			},
+			NumeroDecimalSingular: linguagem.TiposProps{
+				Tipo_Contrato:            "float64",
+				Represenatcao_ComoUsar:   "somente numerocom ponto flutuante, ex: 10",
+				Interpolacao_De_Variavel: "%.2f - explicacao: por padrao o %f exibe 6 casas decimais - vc pode definir quantas casas quer mostrar após o % com ponto numeroDecasas e o f - exemplo: %2.f vai mostrar 2 numeros depois do ponto.",
+				Doc:                      `https://go.dev/tour/basics/11`,
+				Metodos_Prototipos:       []string{`#TODO`},
+			},
+			NumerodecimalColecao: linguagem.TiposProps{
+				Tipo_Contrato:            "[]float64",
+				Represenatcao_ComoUsar:   "[]float64{ 10, 20, 30}",
+				Interpolacao_De_Variavel: "naoTem",
+				Doc:                      `#TODO`,
+				Metodos_Prototipos:       []string{`#TODO`},
+			},
+			QualquerValor: linguagem.TiposProps{
+				Tipo_Contrato:            "[]any",
+				Represenatcao_ComoUsar:   "[]any{ 10, 20, 30}",
+				Interpolacao_De_Variavel: "%v",
+				Doc:                      `#TODO`,
+				Metodos_Prototipos:       []string{`#TODO`},
+			},
 		},
 	},
 	ObterInformacao: linguagem.ObterInformacao{
@@ -83,6 +108,7 @@ var Golang = linguagem.Linguagem{
 	},
 
 	Codigo: linguagem.Codigo{
+		Pensamento_Declaracoes:                   `Escopo TalNome - É UMa estrutura { E VAI TER ... } ex: type TalNome struct { tera... } `,
 		Estruturar_NovoTipo_Para_Gerar_Instancia: `Criar um struct/estrutura. ex: type NomeDoNovoTipo struct { ... campos doTipo ... }`,
 		Gerar_Instancia:                          `func funcaoNomeDoNovoTipo(t Tipo) { return t}`,
 		Campos_Fixo_na_Instancia:                 `#TODO`,
