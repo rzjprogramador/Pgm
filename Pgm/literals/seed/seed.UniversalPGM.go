@@ -30,6 +30,7 @@ func Implementacoes() u.Implementacoes {
 			},
 
 			Algoritmos: u.Algoritmos{
+<<<<<<< HEAD
 				Pensamento_Declaracoes: `Escopo TalNome : É UMA estrutura { E VAI TER ... }`,
 				Metodos_Computaveis:    `São metodos/funcoes ligadas a estrutura que criou o tipo - para ser usado basta desencadear com . ponto a instancia que estará cjhamando o metodo/funcao disponivel, obs: toda instancia herda metodos da sua estrutura.`,
 				Valor_e_seus_Tipos: u.Tipos_Valor{
@@ -51,6 +52,9 @@ func Implementacoes() u.Implementacoes {
 
 			Dev: u.Dev{
 				Lib: []string{"funcoes/modulos externas importaveis", "pacote"},
+=======
+				Metodos_Computaveis: `São metodos/funcoes ligadas a estrutura que criou o tipo - para ser usado basta desencadear com . ponto a instancia que estará chamando o metodo/funcao disponivel, obs: toda instancia herda metodos da sua estrutura, use para poder dar poderes inteligencia as instancias, entre elas poder COMPUTAR Campos, se modificar, Fazer coisas que só quem é deste tipo pode sem precisar de funcoes externas ou soltas, etc.`,
+>>>>>>> 3c6734da78d3b35ae6164ffebb8008011d5656dc
 			},
 		},
 
