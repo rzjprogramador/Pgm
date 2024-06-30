@@ -1,15 +1,18 @@
-package seed
+package seed_go
 
-import l "github.com/rzjprogramador/Pgm_Universal/Pgm/linguagem"
+import (
+	l "github.com/rzjprogramador/Pgm_Universal/Pgm/linguagem"
+	"github.com/rzjprogramador/Pgm_Universal/Pgm/linguagem/literals/seed_go/partseed_go"
+)
 
-var Golang = l.Linguagem{
+var GolangSEED = l.Linguagem{
 	Linguagem: "Golang",
 
 	Valor: l.Valor{
 		Declaracao_Completa: `var Nome = "valor"`,
 		Declaracao_Inferida: `nome := "valor"`,
 
-		Tipos_de_Valor: Tipos_Golang_SEED,
+		Tipos_de_Valor: partseed_go.Tipos_Golang_SEED,
 	},
 
 	ObterInformacao: l.ObterInformacao{

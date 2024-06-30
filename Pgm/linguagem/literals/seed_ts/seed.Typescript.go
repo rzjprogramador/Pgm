@@ -1,15 +1,18 @@
-package seed
+package seed_ts
 
-import l "github.com/rzjprogramador/Pgm_Universal/Pgm/linguagem"
+import (
+	l "github.com/rzjprogramador/Pgm_Universal/Pgm/linguagem"
+	"github.com/rzjprogramador/Pgm_Universal/Pgm/linguagem/literals/seed_ts/partseed_ts"
+)
 
-var Typescript = l.Linguagem{
+var TypescriptSEED = l.Linguagem{
 	Linguagem: "Typescript",
 
 	Valor: l.Valor{
 		Declaracao_Completa: `const nome: string = "valor"`,
 		Declaracao_Inferida: `nome = "valor"`,
 
-		Tipos_de_Valor: Tipos_Typescript_SEED,
+		Tipos_de_Valor: partseed_ts.Tipos_Typescript_SEED,
 	},
 
 	ObterInformacao: l.ObterInformacao{

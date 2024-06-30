@@ -3,17 +3,17 @@ package tester
 import (
 	"fmt"
 
-	"github.com/rzjprogramador/Pgm_Universal/Pgm/linguagem"
-	seed "github.com/rzjprogramador/Pgm_Universal/Pgm/literals/seed"
+	l "github.com/rzjprogramador/Pgm_Universal/Pgm/linguagem"
+	"github.com/rzjprogramador/Pgm_Universal/Pgm/linguagem/literals/seed_ts"
 )
 
 func AllLinguagemRepositoryMemory_Tester() {
 	// usar : instanciar o obj estrutura
-	repo := linguagem.LinguagemRepositoryMemory()
+	repo := l.LinguagemRepositoryMemory()
 
 	// usar : seus metodos
 
-	fmt.Println(repo.Createlinguagem(seed.Typescript))
+	fmt.Println(repo.Createlinguagem(seed_ts.TypescriptSEED))
 
 	fmt.Println(repo.GetAll())
 	// fmt.Println(reflect.TypeOf(repo.GetAll()))
