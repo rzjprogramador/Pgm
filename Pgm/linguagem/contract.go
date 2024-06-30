@@ -42,6 +42,7 @@ type Tipos struct {
 type TiposProps struct {
 	Tipo_Contrato            string
 	Representacao_ComoUsar   string
+	ValorZeroDefault   string
 	Interpolacao_De_Variavel string
 	ConjuntoDesteTipoDeValor string
 	Doc                      string

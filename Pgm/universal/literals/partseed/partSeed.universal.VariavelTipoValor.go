@@ -3,7 +3,7 @@ package seed_universal
 import u "github.com/rzjprogramador/Pgm_Universal/Pgm/universal"
 
 var VariavelTipoValorSEED = u.Variavel{
-	Conceito: `é uma CELULA unidade na memoria já preenchida com o valor zero dependendo do seu tipo de dado esperado, alias sempre será de um TIPO de dado prometido/demarcado pelo dev e sempre será REPRESENTADO por um VALORcorrespondente ao tipo prometido`,
+	Conceito: `é uma CELULA unidade na memoria já preenchida com o valor zero dependendo do seu tipo de dado esperado, alias sempre será de um TIPO de dado prometido/demarcado pelo dev e sempre será REPRESENTADO por um VALOR correspondente ao tipo prometido`,
 
 	Tipos_para_Variaveis: []string{
 		"Caractere_Unico",
@@ -24,3 +24,12 @@ var VariavelTipoValorSEED = u.Variavel{
 	Obs: Cada passo estara em uma celula variavel volatil por padrao ao ser executado/chamado ou naoVolatil se for gravado os dados.
 	Entao só vai ocupar a memoria se for chamado e desocupará quando for reiniciado ou fechado o local de memoria usada.`,
 }
+
+/*
+# TODO VER SE NAO ESTA JA EXPLICADO :
+
+Tipos_e_Suas_Representacoes:
+Conceito: Ao anunciar que devolvera ou usara um tipo de dado , para cada tipo tem as representacoes que podemos usar para representar este tipo anunciado em questao e tambem tem o valorZeroDefault que é tambem uma representacao do tipo caso nao seja passado nada na inicializacao da variavel do tipobem questao.
+Ex: string é representada por "foo" qualquer conjinto de caracteres dentro de aspas duplas, obs: seu valorZero é "" caractere vazio.
+
+*/

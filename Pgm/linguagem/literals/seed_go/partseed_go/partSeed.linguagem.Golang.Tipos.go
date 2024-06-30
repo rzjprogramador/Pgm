@@ -8,6 +8,7 @@ var Tipos_Golang_SEED = l.Tipos{
 	Texto_Caractere_Unico: l.TiposProps{
 		Tipo_Contrato:            ``,
 		Representacao_ComoUsar:   ``,
+		ValorZeroDefault: ``,
 		Interpolacao_De_Variavel: ``,
 		ConjuntoDesteTipoDeValor: ``,
 		Doc:                      ``,
@@ -17,6 +18,7 @@ var Tipos_Golang_SEED = l.Tipos{
 	Texto_Conjunto_de_Caracteres: l.TiposProps{
 		Tipo_Contrato:            ``,
 		Representacao_ComoUsar:   ``,
+		ValorZeroDefault: ``,
 		Interpolacao_De_Variavel: ``,
 		ConjuntoDesteTipoDeValor: ``,
 		Doc:                      ``,
@@ -26,6 +28,7 @@ var Tipos_Golang_SEED = l.Tipos{
 	Numero_Inteiro: l.TiposProps{
 		Tipo_Contrato:            ``,
 		Representacao_ComoUsar:   ``,
+		ValorZeroDefault: ``,
 		Interpolacao_De_Variavel: ``,
 		ConjuntoDesteTipoDeValor: ``,
 		Doc:                      ``,
@@ -35,6 +38,7 @@ var Tipos_Golang_SEED = l.Tipos{
 	Numero_Real_Decimal: l.TiposProps{
 		Tipo_Contrato:            ``,
 		Representacao_ComoUsar:   ``,
+		ValorZeroDefault: ``,
 		Interpolacao_De_Variavel: ``,
 		ConjuntoDesteTipoDeValor: ``,
 		Doc:                      ``,
@@ -44,6 +48,7 @@ var Tipos_Golang_SEED = l.Tipos{
 	Numero_SomentePositivo: l.TiposProps{
 		Tipo_Contrato:            ``,
 		Representacao_ComoUsar:   ``,
+		ValorZeroDefault: ``,
 		Interpolacao_De_Variavel: ``,
 		ConjuntoDesteTipoDeValor: ``,
 		Doc:                      ``,
@@ -53,6 +58,7 @@ var Tipos_Golang_SEED = l.Tipos{
 	Numero_Complexo: l.TiposProps{
 		Tipo_Contrato:            ``,
 		Representacao_ComoUsar:   ``,
+		ValorZeroDefault: ``,
 		Interpolacao_De_Variavel: ``,
 		ConjuntoDesteTipoDeValor: ``,
 		Doc:                      ``,
@@ -62,6 +68,7 @@ var Tipos_Golang_SEED = l.Tipos{
 	Logico: l.TiposProps{
 		Tipo_Contrato:            ``,
 		Representacao_ComoUsar:   ``,
+		ValorZeroDefault: ``,
 		Interpolacao_De_Variavel: ``,
 		ConjuntoDesteTipoDeValor: ``,
 		Doc:                      ``,
@@ -71,6 +78,7 @@ var Tipos_Golang_SEED = l.Tipos{
 	Objeto: l.TiposProps{
 		Tipo_Contrato:            ``,
 		Representacao_ComoUsar:   ``,
+		ValorZeroDefault: ``,
 		Interpolacao_De_Variavel: ``,
 		ConjuntoDesteTipoDeValor: ``,
 		Doc:                      ``,
@@ -80,6 +88,7 @@ var Tipos_Golang_SEED = l.Tipos{
 	Erro: l.TiposProps{
 		Tipo_Contrato:            ``,
 		Representacao_ComoUsar:   ``,
+		ValorZeroDefault: ``,
 		Interpolacao_De_Variavel: ``,
 		ConjuntoDesteTipoDeValor: ``,
 		Doc:                      ``,
@@ -89,6 +98,7 @@ var Tipos_Golang_SEED = l.Tipos{
 	Funcao: l.TiposProps{
 		Tipo_Contrato:            ``,
 		Representacao_ComoUsar:   ``,
+		ValorZeroDefault: ``,
 		Interpolacao_De_Variavel: ``,
 		ConjuntoDesteTipoDeValor: ``,
 		Doc:                      ``,
@@ -98,6 +108,7 @@ var Tipos_Golang_SEED = l.Tipos{
 	Indefinido: l.TiposProps{
 		Tipo_Contrato:            ``,
 		Representacao_ComoUsar:   ``,
+		ValorZeroDefault: ``,
 		Interpolacao_De_Variavel: ``,
 		ConjuntoDesteTipoDeValor: ``,
 		Doc:                      ``,
@@ -107,6 +118,7 @@ var Tipos_Golang_SEED = l.Tipos{
 	Nulo: l.TiposProps{
 		Tipo_Contrato:            ``,
 		Representacao_ComoUsar:   ``,
+		ValorZeroDefault: ``,
 		Interpolacao_De_Variavel: ``,
 		ConjuntoDesteTipoDeValor: ``,
 		Doc:                      ``,
