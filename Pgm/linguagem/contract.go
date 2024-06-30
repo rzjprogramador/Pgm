@@ -24,33 +24,34 @@ type Valor struct {
 }
 
 type Tipos struct {
-	Conceito              string
-	QualquerValor         TiposProps
-	TextoSingular         TiposProps
-	TextoColecao          TiposProps
-	TextoEmGeral          TextoEmGeral
-	NumeroInteiroSingular TiposProps
-	NumeroInteiroColecao  TiposProps
-	NumeroDecimalSingular TiposProps
-	NumerodecimalColecao  TiposProps
-	// Numero_Inteiro_SomentePositivo TiposProps
-	// Numero_Complexo TiposProps
-	// Logico TiposProps
-
-}
-
-type TextoEmGeral struct {
-	QuebraDeLinha string
+	Conceito                     string
+	Texto_Caractere_Unico        TiposProps
+	Texto_Conjunto_de_Caracteres TiposProps
+	Numero_Inteiro               TiposProps
+	Numero_Real_Decimal          TiposProps
+	Numero_SomentePositivo       TiposProps
+	Numero_Complexo              TiposProps
+	Logico                       TiposProps
+	Objeto                       TiposProps
+	Erro                         TiposProps
+	Funcao                       TiposProps
+	Indefinido                   TiposProps
+	Nulo                         TiposProps
 }
 
 type TiposProps struct {
 	Tipo_Contrato            string
-	Represenatcao_ComoUsar   string
+	Representacao_ComoUsar   string
 	Interpolacao_De_Variavel string
+	ConjuntoDesteTipoDeValor string
 	Doc                      string
 	Metodos_Prototipos       []string
 
 	// representacao: , tipo: , doc: , metodos: ,
+}
+
+type TextoEmGeral struct {
+	QuebraDeLinha string
 }
 
 type ObterInformacao struct {

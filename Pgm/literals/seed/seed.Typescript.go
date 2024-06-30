@@ -4,64 +4,12 @@ import "github.com/rzjprogramador/Pgm_Universal/Pgm/linguagem"
 
 var Typescript = linguagem.Linguagem{
 	Linguagem: "Typescript",
+
 	Valor: linguagem.Valor{
 		Declaracao_Completa: `const nome: string = "valor"`,
 		Declaracao_Inferida: `nome = "valor"`,
-		Tipos_de_Valor: linguagem.Tipos{
-			Conceito: `em typescript por default a variavel ao ser preenchida ou tipada se transformará em um objeto desencadeavel para acessar seus metodos prototipos herdados. ex: variavel.METODO_HERDADO()`,
-			TextoSingular: linguagem.TiposProps{
-				Tipo_Contrato:            "string",
-				Represenatcao_ComoUsar:   " dentro de 2 aspas ou 1 aspas",
-				Interpolacao_De_Variavel: "naoTem",
-				Doc:                      `#TODO`,
-				Metodos_Prototipos:       []string{""},
-			},
-			TextoColecao: linguagem.TiposProps{
-				Tipo_Contrato:            "[]string",
-				Represenatcao_ComoUsar:   "[ \"\", \"\",]",
-				Interpolacao_De_Variavel: "naoTem",
-				Doc:                      `#TODO`,
-				Metodos_Prototipos:       []string{""},
-			},
-			TextoEmGeral: linguagem.TextoEmGeral{
-				QuebraDeLinha: "Dentro de Aspas/crazes ex: `texto em cada linha aqui sem precisar usar \n a cada fim de linha desejada`"},
 
-			NumeroInteiroSingular: linguagem.TiposProps{
-				Tipo_Contrato:            "int",
-				Represenatcao_ComoUsar:   "somente numero, ex: 10",
-				Interpolacao_De_Variavel: "naoTem",
-				Doc:                      `#TODO`,
-				Metodos_Prototipos:       []string{""},
-			},
-			NumeroInteiroColecao: linguagem.TiposProps{
-				Tipo_Contrato:            "[]int",
-				Represenatcao_ComoUsar:   "[10, 20, 30]",
-				Interpolacao_De_Variavel: "naoTem",
-				Doc:                      `#TODO`,
-				Metodos_Prototipos:       []string{""},
-			},
-			NumeroDecimalSingular: linguagem.TiposProps{
-				Tipo_Contrato:            "float",
-				Represenatcao_ComoUsar:   "somente numero com ponto flutuante, ex: 10",
-				Interpolacao_De_Variavel: "naoTem",
-				Doc:                      `#TODO`,
-				Metodos_Prototipos:       []string{""},
-			},
-			NumerodecimalColecao: linguagem.TiposProps{
-				Tipo_Contrato:            "[]float",
-				Represenatcao_ComoUsar:   "[10, 20, 30]",
-				Interpolacao_De_Variavel: "naoTem",
-				Doc:                      `#TODO`,
-				Metodos_Prototipos:       []string{""},
-			},
-			QualquerValor: linguagem.TiposProps{
-				Tipo_Contrato:            "[]any",
-				Represenatcao_ComoUsar:   "[]any{ 10, 20, 30}",
-				Interpolacao_De_Variavel: "`${ variavel }` // sempre dentro de crazes ",
-				Doc:                      `#TODO`,
-				Metodos_Prototipos:       []string{""},
-			},
-		},
+		Tipos_de_Valor: Tipos_Typescript_SEED,
 	},
 
 	ObterInformacao: linguagem.ObterInformacao{

@@ -7,6 +7,18 @@ type ConceitosUniversalPGM[N NomePastas, C Conceito, I Implementacoes] interface
 	Implementacoes() I
 }
 
+type UniversalPGM struct {
+	Significados                                         Significados
+	Variavel_Guarda_TipoDeDado_Representado_por_um_Valor Variavel
+}
+
+type Variavel struct {
+	Conceito                      string
+	Tipos_para_Variaveis          []string
+	Uso_de_variaveis              string
+	Consequencia_ao_usar_Variavel string
+}
+
 type NomePastas interface {
 	Singular | Plural
 }
@@ -28,7 +40,6 @@ type Conceito struct {
 }
 
 type Implementacoes struct {
-	Significados                     Significados
 	Obrigatorio_atualizar            string
 	Log                              string
 	Origem_Campo                     string
@@ -44,7 +55,7 @@ type Significados struct {
 	Computador Computador
 	Linguagem  Linguagem
 	Algoritmos Algoritmos
-	Dev Dev
+	Dev        Dev
 }
 
 type Computador struct {
@@ -58,25 +69,24 @@ type Linguagem struct {
 }
 type Algoritmos struct {
 	Pensamento_Declaracoes string
-	Metodos_Computaveis string
-	Valor []string
-	Valor_e_seus_Tipos Tipos_Valor
+	Metodos_Computaveis    string
+	Valor                  []string
+	Valor_e_seus_Tipos     Tipos_Valor
 }
 
 type Tipos_Valor struct {
-	Conceito string
-	QualquerValor         string
-	TextoSingular         string
-	TextoColecao          string
-	TextoEmGeral          string
-	NumeroInteiroSingular string
-	NumeroInteiroColecao  string
-	NumeroDecimalSingular string
-	NumerodecimalColecao  string
+	Conceito                       string
+	QualquerValor                  string
+	TextoSingular                  string
+	TextoColecao                   string
+	TextoEmGeral                   string
+	NumeroInteiroSingular          string
+	NumeroInteiroColecao           string
+	NumeroDecimalSingular          string
+	NumerodecimalColecao           string
 	Numero_Inteiro_SomentePositivo string
-	Numero_Complexo string
-	Logico string
-
+	Numero_Complexo                string
+	Logico                         string
 }
 
 type Dev struct {

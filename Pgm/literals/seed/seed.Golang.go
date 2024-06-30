@@ -1,92 +1,36 @@
 package seed
 
-import "github.com/rzjprogramador/Pgm_Universal/Pgm/linguagem"
+import l "github.com/rzjprogramador/Pgm_Universal/Pgm/linguagem"
 
-var Golang = linguagem.Linguagem{
+var Golang = l.Linguagem{
 	Linguagem: "Golang",
-	Valor: linguagem.Valor{
+
+	Valor: l.Valor{
 		Declaracao_Completa: `var Nome = "valor"`,
 		Declaracao_Inferida: `nome := "valor"`,
-		Tipos_de_Valor: linguagem.Tipos{
-			Conceito: `em golang por default a variavel com valor nNÃO vira um objeto desencadeavel para acessar seus metodos herdados
-			os metodos de cada tipo vem do objeto importavel correspondente ao tipo do valor ex: para usar
-			metodos para string importamos [ o objeto string, para numero number, para matematica math, ] e usamos o objeto e deste objeto desencadeamos seus metodos string.METODO_HERDADO()
 
-			METODOS_PROTOTIPOS : algumas funcoes para todos os tipos estao soltas na linguagem ex: para ver tamanho o length é a funcao solat len( alvo )
-
-			`,
-			TextoSingular: linguagem.TiposProps{
-				Tipo_Contrato:            "string",
-				Represenatcao_ComoUsar:   " dentro de 2 aspas",
-				Interpolacao_De_Variavel: "%s",
-				Doc:                      `#TODO`,
-				Metodos_Prototipos:       []string{"pacote prototipos : strings https://pkg.go.dev/strings"},
-			},
-			TextoColecao: linguagem.TiposProps{
-				Tipo_Contrato:            "[]string",
-				Represenatcao_ComoUsar:   "[]string{ \"\", \"\",}",
-				Interpolacao_De_Variavel: "todo",
-				Doc:                      `#TODO`,
-				Metodos_Prototipos:       []string{`#TODO`},
-			},
-			TextoEmGeral: linguagem.TextoEmGeral{
-				QuebraDeLinha: "Dentro de Aspas/crazes ex: `texto em cada linha aqui sem precisar usar \n a cada fim de linha desejada`"},
-			NumeroInteiroSingular: linguagem.TiposProps{
-				Tipo_Contrato:            "int64",
-				Represenatcao_ComoUsar:   "somente numero, ex: 10",
-				Interpolacao_De_Variavel: "%d",
-				Doc:                      `https://go.dev/tour/basics/11`,
-				Metodos_Prototipos:       []string{"pacote prototipos number: https://pkg.go.dev/golang.org/x/text/number", "matematica https://pkg.go.dev/math"},
-			},
-			NumeroInteiroColecao: linguagem.TiposProps{
-				Tipo_Contrato:            "[]int64",
-				Represenatcao_ComoUsar:   "[]int64{ \"\", \"\",}",
-				Interpolacao_De_Variavel: "todo",
-				Doc:                      `#TODO`,
-				Metodos_Prototipos:       []string{`#TODO`},
-			},
-			NumeroDecimalSingular: linguagem.TiposProps{
-				Tipo_Contrato:            "float64",
-				Represenatcao_ComoUsar:   "somente numerocom ponto flutuante, ex: 10",
-				Interpolacao_De_Variavel: "%.2f - explicacao: por padrao o %f exibe 6 casas decimais - vc pode definir quantas casas quer mostrar após o % com ponto numeroDecasas e o f - exemplo: %2.f vai mostrar 2 numeros depois do ponto.",
-				Doc:                      `https://go.dev/tour/basics/11`,
-				Metodos_Prototipos:       []string{`#TODO`},
-			},
-			NumerodecimalColecao: linguagem.TiposProps{
-				Tipo_Contrato:            "[]float64",
-				Represenatcao_ComoUsar:   "[]float64{ 10, 20, 30}",
-				Interpolacao_De_Variavel: "naoTem",
-				Doc:                      `#TODO`,
-				Metodos_Prototipos:       []string{`#TODO`},
-			},
-			QualquerValor: linguagem.TiposProps{
-				Tipo_Contrato:            "[]any",
-				Represenatcao_ComoUsar:   "[]any{ 10, 20, 30}",
-				Interpolacao_De_Variavel: "%v",
-				Doc:                      `#TODO`,
-				Metodos_Prototipos:       []string{`#TODO`},
-			},
-		},
+		Tipos_de_Valor: Tipos_Golang_SEED,
 	},
-	ObterInformacao: linguagem.ObterInformacao{
-		Debugg: linguagem.Debug{
+
+	ObterInformacao: l.ObterInformacao{
+		Debugg: l.Debug{
 			Printar_no_Console:                           "fmt.Println( target) // obs: fmt é uma lib internal importavel",
 			Printar_no_Console_com_VariaveisInterpoladas: "fmt.Printf ( \"texto com %demarcacaoVariveis\", variaveis por justa posicao conforme demarcacoes no texto) // obs: fmt é uma lib internal importavel",
 		},
 		ObterTipo:      "reflect.TypeOf( <target> ) // ou via console : fmt.Printf(\"Tipo: %T\", VARIAVEL_ALVO)",
 		ObterInstancia: "use o metodo Name do typeOf e terao nome do struct em string ex: if reflect.TypeOf( TARGET ).Name() != \"NomeDostruct\" { ..faça algo",
 	},
-	Colecoes: linguagem.Colecoes{
+	Colecoes: l.Colecoes{
 		Criar_prop_de_colecao_inicial_vazia: "var Items_Tipo = []Tipo{}",
 		Add_item_na_colecao:                 "append( item ) ||ou|| Add(item)",
 		Remover_item_na_colecao:             "#todo",
 		Mostrar_items_da_colecao:            "return items",
 		Mostrar_item_Especifico_da_colecao:  "#todo",
 	},
-	Libs: linguagem.Libs{
+	Libs: l.Libs{
 		PacotesConfiaveis: []string{"https://pkg.go.dev/"},
 	},
-	InterfaceDefinicaoDeNovosTipos: linguagem.InterfaceDefinicaoDeNovosTipos{
+	InterfaceDefinicaoDeNovosTipos: l.InterfaceDefinicaoDeNovosTipos{
 		Conceito: `
 		contrato_interface: em golang para formar um obj onde o campo pode ser de um tipo ou de outro tipo de obj
 		usamos a interface.
@@ -95,11 +39,11 @@ var Golang = linguagem.Linguagem{
 		- para definir este tipo se vai ser UmTipo | OutroTipo : criamos um type tipo struct mas ao inves da clausula struct usamos interface e dentro definimos que vai ser UMTipo ou OutroTipo desejado.
 		`,
 	},
-	Regras: linguagem.Regras{
+	Regras: l.Regras{
 		Virgula_Apos_Fechamento_de_Objetos_Encadeados: "Sim",
 	},
 
-	Recursos: linguagem.Recursos{
+	Recursos: l.Recursos{
 		Apelido_Para_Importacoes: `
 		em golang posso dar apelido para encurtar importacoes funciona como um obj e uso ele nas linahs abaixo ex: antes da importacao crio o apelido e uso ans linahs babaixo ex:
 		import u "github.com/rzjprogramador/Pgm_Universal/Pgm/universal"
@@ -107,7 +51,7 @@ var Golang = linguagem.Linguagem{
 		`,
 	},
 
-	Codigo: linguagem.Codigo{
+	Codigo: l.Codigo{
 		Pensamento_Declaracoes:                               `Escopo TalNome - É UMa estrutura { E VAI TER ... } ex: type TalNome struct { tera... } `,
 		Estrutura_Modeladora_de_Objeto_Instancia_de_NovoTipo: `Criar um struct/estrutura. ex: type NomeDoNovoTipo struct { ... campos doTipo ... }`,
 		Gerar_Instancia:                                      `func funcaoNomeDoNovoTipo(t Tipo) { return t}`,
