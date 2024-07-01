@@ -153,7 +153,7 @@ var Tipos_Typescript_SEED = l.Tipos{
 			Singular: "const foo: Function = (): string => `text`",
 			Plural:   "const foo: Function = (): Function[] => [() => 'foo1', () => 'foo_2']",
 		},
-		ValorZeroDefault:         `todos são undefined/indefinido se nao tipado.`,
+		ValorZeroDefault:         `todos são undefined/indefinido se nao demarcar que será vazio, nao executar nada e usar a clausula return.`,
 		Interpolacao_De_Variavel: `${ variavelDoTipo}`,
 		Doc:                      `todo`,
 		Metodos_Prototipos:       []string{"todo"},

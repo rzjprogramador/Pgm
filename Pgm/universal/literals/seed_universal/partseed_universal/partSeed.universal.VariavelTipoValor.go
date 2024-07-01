@@ -1,4 +1,4 @@
-package seed_universal
+package partseed_universal
 
 import u "github.com/rzjprogramador/Pgm_Universal/Pgm/universal"
 

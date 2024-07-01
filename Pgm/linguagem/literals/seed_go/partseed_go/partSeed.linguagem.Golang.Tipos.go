@@ -159,7 +159,7 @@ var Tipos_Golang_SEED = l.Tipos{
 			Singular: "todo",
 			Plural:   "todo",
 		},
-		ValorZeroDefault:         `todo`,
+		ValorZeroDefault:         `todos são automaticamente VAZIO, nao executar nada e usar a clausula return`,
 		Interpolacao_De_Variavel: `todo`,
 		Doc:                      `todo`,
 		Metodos_Prototipos:       []string{"todo"},

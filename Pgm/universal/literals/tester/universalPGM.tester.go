@@ -3,14 +3,14 @@ package tester
 import (
 	"fmt"
 
-	s "github.com/rzjprogramador/Pgm_Universal/Pgm/literals/seed/seed_universal"
+	"github.com/rzjprogramador/Pgm_Universal/Pgm/universal/literals/seed_universal"
 )
 
 func UniversalPGM_Tester() {
 	fmt.Println(
-		s.NomePastaGuardaOutrasPastas(),
-		s.NomePastaDeArquivosSoltos(),
-		s.QuebraDeLinhas(),
-		s.Implementacoes(),
+		seed_universal.NomePastaGuardaOutrasPastas(),
+		seed_universal.NomePastaDeArquivosSoltos(),
+		seed_universal.QuebraDeLinhas(),
+		seed_universal.Implementacoes(),
 	)
 }

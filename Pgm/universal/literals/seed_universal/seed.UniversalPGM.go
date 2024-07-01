@@ -1,12 +1,15 @@
 package seed_universal
 
-import u "github.com/rzjprogramador/Pgm_Universal/Pgm/universal"
+import (
+	u "github.com/rzjprogramador/Pgm_Universal/Pgm/universal"
+	"github.com/rzjprogramador/Pgm_Universal/Pgm/universal/literals/seed_universal/partseed_universal"
+)
 
 // Unir aqui todos partSEED
 var UniversalPGMSEED = u.UniversalPGM{
-	Significados: SignificadosSEED,
+	Significados: partseed_universal.SignificadosSEED,
 
-	Variavel_Guarda_TipoDeDado_Representado_por_um_Valor: VariavelTipoValorSEED,
+	Variavel_Guarda_TipoDeDado_Representado_por_um_Valor: partseed_universal.VariavelTipoValorSEED,
 }
 
 // modificaveis sempre add mais
