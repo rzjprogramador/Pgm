@@ -3,188 +3,210 @@ package partseed_go
 import l "github.com/rzjprogramador/Pgm_Universal/Pgm/linguagem"
 
 var Tipos_Golang_SEED = l.Tipos{
-	Conceito: ``,
+	Conceito: `em golang por default a variavel com valor nNÃO vira um objeto desencadeavel para acessar seus metodos herdados
+	os metodos de cada tipo vem do objeto importavel correspondente ao tipo do valor ex: para usar
+	metodos para importamos o objeto para numero number, para matematica math, ] e usamos o objeto e deste objeto desencadeamos seus metodos : obj.METODO_HERDADO()`,
 
 	Texto_Caractere_Unico: l.TiposProps{
-		Tipo_Contrato:            ``,
-		Representacao_ComoUsar:   ``,
-		ValorZeroDefault: ``,
-		Interpolacao_De_Variavel: ``,
-		ConjuntoDesteTipoDeValor: ``,
-		Doc:                      ``,
-		Metodos_Prototipos:       []string{""},
+		Clausula_Contrato: l.Clausula_Contrato{
+			Singular: "naoTem char",
+			Plural:   "naoTem char",
+		},
+		Representacao_ComoUsar: l.Clausula_Contrato{
+			Singular: "naoTem char",
+			Plural:   "naoTem char",
+		},
+		ValorZeroDefault:         `todo`,
+		Interpolacao_De_Variavel: `todo`,
+		Doc:                      `todo`,
+		Metodos_Prototipos:       []string{"todo"},
 	},
 
 	Texto_Conjunto_de_Caracteres: l.TiposProps{
-		Tipo_Contrato:            ``,
-		Representacao_ComoUsar:   ``,
-		ValorZeroDefault: ``,
-		Interpolacao_De_Variavel: ``,
-		ConjuntoDesteTipoDeValor: ``,
-		Doc:                      ``,
-		Metodos_Prototipos:       []string{""},
+		Clausula_Contrato: l.Clausula_Contrato{
+			Singular: "string",
+			Plural:   "[]string",
+		},
+		Representacao_ComoUsar: l.Clausula_Contrato{
+			Singular: "texto somente dentro de aspas duplas",
+			Plural:   `[]string{"foo", "bar", }`,
+		},
+		ValorZeroDefault:         `string vazia - sem espaço`,
+		Interpolacao_De_Variavel: `%s`,
+		Doc:                      `todo`,
+		Metodos_Prototipos:       []string{"todo"},
+	},
+
+	Texto_Recursos: l.Texto_Recursos{
+		Template_String_QuebraDeLinhas: "Dentro de Aspas/crazes ex: `texto em cada linha aqui sem precisar usar \n a cada fim de linha desejada`.",
 	},
 
 	Numero_Inteiro: l.TiposProps{
-		Tipo_Contrato:            ``,
-		Representacao_ComoUsar:   ``,
-		ValorZeroDefault: ``,
-		Interpolacao_De_Variavel: ``,
-		ConjuntoDesteTipoDeValor: ``,
-		Doc:                      ``,
-		Metodos_Prototipos:       []string{""},
+		Clausula_Contrato: l.Clausula_Contrato{
+			Singular: "int",
+			Plural:   "[]int",
+		},
+		Representacao_ComoUsar: l.Clausula_Contrato{
+			Singular: "10",
+			Plural:   "[]int{ 10, 20, 30}",
+		},
+		ValorZeroDefault:         `0`,
+		Interpolacao_De_Variavel: `%d`,
+		Doc:                      `todo`,
+		Metodos_Prototipos:       []string{"https://pkg.go.dev/golang.org/x/text/number", "matematica https://pkg.go.dev/math"},
 	},
 
 	Numero_Real_Decimal: l.TiposProps{
-		Tipo_Contrato:            ``,
-		Representacao_ComoUsar:   ``,
-		ValorZeroDefault: ``,
-		Interpolacao_De_Variavel: ``,
-		ConjuntoDesteTipoDeValor: ``,
-		Doc:                      ``,
-		Metodos_Prototipos:       []string{""},
+		Clausula_Contrato: l.Clausula_Contrato{
+			Singular: "float",
+			Plural:   "[]float",
+		},
+		Representacao_ComoUsar: l.Clausula_Contrato{
+			Singular: "10.11",
+			Plural:   "[]float{ 10.11, 20.22, }",
+		},
+		ValorZeroDefault:         `0`,
+		Interpolacao_De_Variavel: `%.2f - explicacao: por padrao o %f exibe 6 casas decimais - vc pode definir quantas casas quer mostrar após o % com ponto numeroDecasas e o f - exemplo: %2.f vai mostrar 2 numeros depois do ponto.`,
+		Doc:                      `todo`,
+		Metodos_Prototipos:       []string{"todo"},
 	},
 
 	Numero_SomentePositivo: l.TiposProps{
-		Tipo_Contrato:            ``,
-		Representacao_ComoUsar:   ``,
-		ValorZeroDefault: ``,
-		Interpolacao_De_Variavel: ``,
-		ConjuntoDesteTipoDeValor: ``,
-		Doc:                      ``,
-		Metodos_Prototipos:       []string{""},
+		Clausula_Contrato: l.Clausula_Contrato{
+			Singular: "uint64",
+			Plural:   "[]uint64",
+		},
+		Representacao_ComoUsar: l.Clausula_Contrato{
+			Singular: "10",
+			Plural:   "[]uint64{ 10, 20, 30 }",
+		},
+		ValorZeroDefault:         `0`,
+		Interpolacao_De_Variavel: `todo`,
+		Doc:                      `todo`,
+		Metodos_Prototipos:       []string{"todo"},
 	},
 
 	Numero_Complexo: l.TiposProps{
-		Tipo_Contrato:            ``,
-		Representacao_ComoUsar:   ``,
-		ValorZeroDefault: ``,
-		Interpolacao_De_Variavel: ``,
-		ConjuntoDesteTipoDeValor: ``,
-		Doc:                      ``,
-		Metodos_Prototipos:       []string{""},
+		Clausula_Contrato: l.Clausula_Contrato{
+			Singular: "todo",
+			Plural:   "todo",
+		},
+		Representacao_ComoUsar: l.Clausula_Contrato{
+			Singular: "todo",
+			Plural:   "todo",
+		},
+		ValorZeroDefault:         `todo`,
+		Interpolacao_De_Variavel: `todo`,
+		Doc:                      `todo`,
+		Metodos_Prototipos:       []string{"todo"},
 	},
 
 	Logico: l.TiposProps{
-		Tipo_Contrato:            ``,
-		Representacao_ComoUsar:   ``,
-		ValorZeroDefault: ``,
-		Interpolacao_De_Variavel: ``,
-		ConjuntoDesteTipoDeValor: ``,
-		Doc:                      ``,
-		Metodos_Prototipos:       []string{""},
+		Clausula_Contrato: l.Clausula_Contrato{
+			Singular: "bool",
+			Plural:   "[]bool",
+		},
+		Representacao_ComoUsar: l.Clausula_Contrato{
+			Singular: "true para verdadeiro - false para falso",
+			Plural:   "[]bool{ true, false, false, true, }",
+		},
+		ValorZeroDefault:         `todo`,
+		Interpolacao_De_Variavel: `todo`,
+		Doc:                      `todo`,
+		Metodos_Prototipos:       []string{"todo"},
 	},
 
 	Objeto: l.TiposProps{
-		Tipo_Contrato:            ``,
-		Representacao_ComoUsar:   ``,
-		ValorZeroDefault: ``,
-		Interpolacao_De_Variavel: ``,
-		ConjuntoDesteTipoDeValor: ``,
-		Doc:                      ``,
-		Metodos_Prototipos:       []string{""},
+		Clausula_Contrato: l.Clausula_Contrato{
+			Singular: "Tem que criar uma struct ex: type NomeDoNovoObjeto { campos tipo }",
+			Plural:   "naoTem",
+		},
+		Representacao_ComoUsar: l.Clausula_Contrato{
+			Singular: `criar uma funcao que recebe o obj e o devolve.
+			ex:
+			func NewObject(o StructDoObjeto) StructDoObjeto {
+				return o
+			}`,
+			Plural: "naoTem",
+		},
+		ValorZeroDefault:         `todo`,
+		Interpolacao_De_Variavel: `todo`,
+		Doc:                      `todo`,
+		Metodos_Prototipos:       []string{"todo"},
 	},
 
 	Erro: l.TiposProps{
-		Tipo_Contrato:            ``,
-		Representacao_ComoUsar:   ``,
-		ValorZeroDefault: ``,
-		Interpolacao_De_Variavel: ``,
-		ConjuntoDesteTipoDeValor: ``,
-		Doc:                      ``,
-		Metodos_Prototipos:       []string{""},
+		Clausula_Contrato: l.Clausula_Contrato{
+			Singular: "error",
+			Plural:   "[]error",
+		},
+		Representacao_ComoUsar: l.Clausula_Contrato{
+			Singular: `errors.New("msg_de_erro") - Importar a lib "errors"`,
+			Plural:   `[]error{errors.New("msg_de_erro"), errors.New("msg_de_erro")`,
+		},
+		ValorZeroDefault:         `todo`,
+		Interpolacao_De_Variavel: `todo`,
+		Doc:                      `todo`,
+		Metodos_Prototipos:       []string{"todo"},
 	},
 
 	Funcao: l.TiposProps{
-		Tipo_Contrato:            ``,
-		Representacao_ComoUsar:   ``,
-		ValorZeroDefault: ``,
-		Interpolacao_De_Variavel: ``,
-		ConjuntoDesteTipoDeValor: ``,
-		Doc:                      ``,
-		Metodos_Prototipos:       []string{""},
+		Clausula_Contrato: l.Clausula_Contrato{
+			Singular: "todo",
+			Plural:   "todo",
+		},
+		Representacao_ComoUsar: l.Clausula_Contrato{
+			Singular: "todo",
+			Plural:   "todo",
+		},
+		ValorZeroDefault:         `todo`,
+		Interpolacao_De_Variavel: `todo`,
+		Doc:                      `todo`,
+		Metodos_Prototipos:       []string{"todo"},
 	},
 
 	Indefinido: l.TiposProps{
-		Tipo_Contrato:            ``,
-		Representacao_ComoUsar:   ``,
-		ValorZeroDefault: ``,
-		Interpolacao_De_Variavel: ``,
-		ConjuntoDesteTipoDeValor: ``,
-		Doc:                      ``,
-		Metodos_Prototipos:       []string{""},
+		Clausula_Contrato: l.Clausula_Contrato{
+			Singular: "todo",
+			Plural:   "todo",
+		},
+		Representacao_ComoUsar: l.Clausula_Contrato{
+			Singular: "todo",
+			Plural:   "todo",
+		},
+		ValorZeroDefault:         `todo`,
+		Interpolacao_De_Variavel: `todo`,
+		Doc:                      `todo`,
+		Metodos_Prototipos:       []string{"todo"},
 	},
 
 	Nulo: l.TiposProps{
-		Tipo_Contrato:            ``,
-		Representacao_ComoUsar:   ``,
-		ValorZeroDefault: ``,
-		Interpolacao_De_Variavel: ``,
-		ConjuntoDesteTipoDeValor: ``,
-		Doc:                      ``,
-		Metodos_Prototipos:       []string{""},
+		Clausula_Contrato: l.Clausula_Contrato{
+			Singular: "nil",
+			Plural:   "[]nil",
+		},
+		Representacao_ComoUsar: l.Clausula_Contrato{
+			Singular: "todo",
+			Plural:   "todo",
+		},
+		ValorZeroDefault:         `todo`,
+		Interpolacao_De_Variavel: `todo`,
+		Doc:                      `todo`,
+		Metodos_Prototipos:       []string{"todo"},
+	},
+
+	Vazio: l.TiposProps{
+		Clausula_Contrato: l.Clausula_Contrato{
+			Singular: "NaoPrecisa_Demarcar",
+			Plural:   "naoTem",
+		},
+		Representacao_ComoUsar: l.Clausula_Contrato{
+			Singular: "em funcao é só nao usar a clausula return.",
+			Plural:   "naoTem",
+		},
+		ValorZeroDefault:         `naoTem`,
+		Interpolacao_De_Variavel: `naoTem`,
+		Doc:                      `todo`,
+		Metodos_Prototipos:       []string{"todo"},
 	},
 }
-
-/*
-linguagem.Tipos{
-			Conceito: `em golang por default a variavel com valor nNÃO vira um objeto desencadeavel para acessar seus metodos herdados
-			os metodos de cada tipo vem do objeto importavel correspondente ao tipo do valor ex: para usar
-			metodos para :`` importamos [ o objeto :``, para numero number, para matematica math, ] e usamos o objeto e deste objeto desencadeamos seus metodos :``.METODO_HERDADO()
-
-			METODOS_PROTOTIPOS : algumas funcoes para todos os tipos estao soltas na linguagem ex: para ver tamanho o length é a funcao solat len( alvo )
-
-			`,
-			TextoSingular: linguagem.l.TiposProps{
-				Tipo_Contrato:            ":``",
-				Representacao_ComoUsar:   " dentro de 2 aspas",
-				Interpolacao_De_Variavel: "%s",
-				Doc:                      `#TODO`,
-				Metodos_Prototipos:      : []:``{"pa"",cote prototipos : :``s https://pkg.go.dev/:``s"},
-			},
-			TextoColecao: linguagem.l.TiposProps{
-				Tipo_Contrato:            "[]:``",
-				Representacao_ComoUsar:   "[]:``{ \"\", \"\",}",
-				Interpolacao_De_Variavel: "todo",
-				Doc:                      `#TODO`,
-				Metodos_Prototipos:      : []:``{`#T"",ODO`},
-			},
-			TextoEmGeral: linguagem.TextoEmGeral{
-				QuebraDeLinha: "Dentro de Aspas/crazes ex: `texto em cada linha aqui sem precisar usar \n a cada fim de linha desejada`"},
-			NumeroInteiroSingular: linguagem.l.TiposProps{
-				Tipo_Contrato:            "int64",
-				Representacao_ComoUsar:   "somente numero, ex: 10",
-				Interpolacao_De_Variavel: "%d",
-				Doc:                      `https://go.dev/tour/basics/11`,
-				Metodos_Prototipos:      : []:``{"pa"",cote prototipos number: https://pkg.go.dev/golang.org/x/text/number", "matematica https://pkg.go.dev/math"},
-			},
-			NumeroInteiroColecao: linguagem.l.TiposProps{
-				Tipo_Contrato:            "[]int64",
-				Representacao_ComoUsar:   "[]int64{ \"\", \"\",}",
-				Interpolacao_De_Variavel: "todo",
-				Doc:                      `#TODO`,
-				Metodos_Prototipos:      : []:``{`#T"",ODO`},
-			},
-			NumeroDecimalSingular: linguagem.l.TiposProps{
-				Tipo_Contrato:            "float64",
-				Representacao_ComoUsar:   "somente numerocom ponto flutuante, ex: 10",
-				Interpolacao_De_Variavel: "%.2f - explicacao: por padrao o %f exibe 6 casas decimais - vc pode definir quantas casas quer mostrar após o % com ponto numeroDecasas e o f - exemplo: %2.f vai mostrar 2 numeros depois do ponto.",
-				Doc:                      `https://go.dev/tour/basics/11`,
-				Metodos_Prototipos:      : []:``{`#T"",ODO`},
-			},
-			NumerodecimalColecao: linguagem.l.TiposProps{
-				Tipo_Contrato:            "[]float64",
-				Representacao_ComoUsar:   "[]float64{ 10, 20, 30}",
-				Interpolacao_De_Variavel: "naoTem",
-				Doc:                      `#TODO`,
-				Metodos_Prototipos:      : []:``{`#T"",ODO`},
-			},
-			Livre_QualquerValor_ANY: linguagem.l.TiposProps{
-				Tipo_Contrato:            "[]any",
-				Representacao_ComoUsar:   "[]any{ 10, 20, 30}",
-				Interpolacao_De_Variavel: "%v",
-				Doc:                      `#TODO`,
-				Metodos_Prototipos:      : []:``{`#T"",ODO`},
-			},
-		},
-*/

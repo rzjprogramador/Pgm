@@ -27,6 +27,7 @@ type Tipos struct {
 	Conceito                     string
 	Texto_Caractere_Unico        TiposProps
 	Texto_Conjunto_de_Caracteres TiposProps
+	Texto_Recursos Texto_Recursos
 	Numero_Inteiro               TiposProps
 	Numero_Real_Decimal          TiposProps
 	Numero_SomentePositivo       TiposProps
@@ -37,22 +38,27 @@ type Tipos struct {
 	Funcao                       TiposProps
 	Indefinido                   TiposProps
 	Nulo                         TiposProps
+	Vazio                         TiposProps
 }
 
 type TiposProps struct {
-	Tipo_Contrato            string
-	Representacao_ComoUsar   string
-	ValorZeroDefault   string
+	Clausula_Contrato        Clausula_Contrato
+	Representacao_ComoUsar   Clausula_Contrato
+	ValorZeroDefault         string
 	Interpolacao_De_Variavel string
-	ConjuntoDesteTipoDeValor string
 	Doc                      string
 	Metodos_Prototipos       []string
 
 	// representacao: , tipo: , doc: , metodos: ,
 }
 
-type TextoEmGeral struct {
-	QuebraDeLinha string
+type Clausula_Contrato struct {
+	Singular string
+	Plural   string
+}
+
+type Texto_Recursos struct {
+	Template_String_QuebraDeLinhas string
 }
 
 type ObterInformacao struct {
