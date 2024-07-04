@@ -72,6 +72,12 @@ type Algoritmos struct {
 	Metodos_Computaveis    string
 	Valor                  []string
 	Valor_e_seus_Tipos     Tipos_Valor
+	Campos_Com_Valores_Default AlgoritmoType
+}
+
+type AlgoritmoType struct{
+	Algoritmo string
+	Exemplo string
 }
 
 type Tipos_Valor struct {
