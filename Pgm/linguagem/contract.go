@@ -14,7 +14,7 @@ type Linguagem struct {
 	InterfaceDefinicaoDeNovosTipos InterfaceDefinicaoDeNovosTipos
 	Regras                         Regras
 	Recursos                       Recursos
-	Codigo                         Codigo
+	Codigo                         Algortimo_LING
 }
 
 type Valor struct {
@@ -27,7 +27,7 @@ type Tipos struct {
 	Conceito                     string
 	Texto_Caractere_Unico        TiposProps
 	Texto_Conjunto_de_Caracteres TiposProps
-	Texto_Recursos Texto_Recursos
+	Texto_Recursos               Texto_Recursos
 	Numero_Inteiro               TiposProps
 	Numero_Real_Decimal          TiposProps
 	Numero_SomentePositivo       TiposProps
@@ -38,7 +38,7 @@ type Tipos struct {
 	Funcao                       TiposProps
 	Indefinido                   TiposProps
 	Nulo                         TiposProps
-	Vazio                         TiposProps
+	Vazio                        TiposProps
 }
 
 type TiposProps struct {
@@ -113,11 +113,17 @@ type Recursos struct {
 	Apelido_Para_Importacoes string
 }
 
-type Codigo struct {
+type Algortimo_LING struct {
 	Pensamento_Declaracoes                               string
 	Estrutura_Modeladora_de_Objeto_Instancia_de_NovoTipo string
 	Gerar_Instancia                                      string
 	Campos_Fixo_na_Instancia                             string
 	Campos_Dinamicos_na_Instancia                        string
 	Dar_Intelegencia_Ha_Instancia                        string
+	Campos_Com_Valores_Default                           Algoritmo_Type_LING
+}
+
+type Algoritmo_Type_LING struct {
+	Algoritmo string
+	Exemplo   string
 }

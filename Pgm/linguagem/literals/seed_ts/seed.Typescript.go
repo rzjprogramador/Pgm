@@ -50,12 +50,17 @@ var TypescriptSEED = l.Linguagem{
 		`,
 	},
 
-	Codigo: l.Codigo{
+	Codigo: l.Algortimo_LING{
 		Pensamento_Declaracoes:                               `Escopo TalNome : É UMA estrutura { E VAI TER ... } ex:  const talNome: Object = { tera: 10, teratambem: true}`,
 		Estrutura_Modeladora_de_Objeto_Instancia_de_NovoTipo: `Criar uma classe ex: class NomeDoNovoTipo {}`,
 		Gerar_Instancia:                                      `const i1 = new NomeDoNovoTipo()`,
 		Campos_Fixo_na_Instancia:                             `na parte alta da classe inserir campos com valores pré-determinados`,
 		Campos_Dinamicos_na_Instancia:                        `Receber via constructor parametros que serao so campos dinamicos da intancia ao ser gerada`,
 		Dar_Intelegencia_Ha_Instancia:                        `Criar Metodos_Computaveis. ex: `,
+
+		Campos_Com_Valores_Default: l.Algoritmo_Type_LING{
+			Algoritmo: `no alto da classe inserir campo default: valor`,
+			Exemplo:   `#todo`,
+		},
 	},
 }

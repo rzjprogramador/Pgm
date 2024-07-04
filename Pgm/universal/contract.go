@@ -68,16 +68,16 @@ type Linguagem struct {
 	Linguagem_Interpretada   string
 }
 type Algoritmos struct {
-	Pensamento_Declaracoes string
-	Metodos_Computaveis    string
-	Valor                  []string
-	Valor_e_seus_Tipos     Tipos_Valor
-	Campos_Com_Valores_Default AlgoritmoType
+	Pensamento_Declaracoes          string
+	Metodos_Computaveis             string
+	Valor                           []string
+	Valor_e_seus_Tipos              Tipos_Valor
+	Campos_Com_Valores_Default_UNIV Algoritmo_Type_UNIV
 }
 
-type AlgoritmoType struct{
+type Algoritmo_Type_UNIV struct {
 	Algoritmo string
-	Exemplo string
+	Exemplo   string
 }
 
 type Tipos_Valor struct {
