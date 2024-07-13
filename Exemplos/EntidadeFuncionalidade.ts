@@ -58,6 +58,7 @@ function RunAllTests() {
 RunAllTests()
 
 /*
+
 ALGORITMOS PARA ENTIDADE OU FUNCIONALIDADES
 
 conceito a entidade seja ela: [ pessoa, funcionalidade, produto], sera no final a representacao de um objeto.
