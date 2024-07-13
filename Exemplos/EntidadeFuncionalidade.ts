@@ -5,11 +5,14 @@ interface EntidadeFuncionalidade {
 }
 
 type Action1Return = number
-type EntidadeFuncionalidadeInput = EntidadeFuncionalidade | EntidadeFuncionalidadeStruct
+type EntidadeFuncionalidadeInput = EntidadeFuncionalidade
+// type EntidadeFuncionalidadeInput = EntidadeFuncionalidade | EntidadeFuncionalidadeStruct
 type Test_EntidadeFuncionalidadeType = Error | void
 
 // Contrato_Estruturador :
-class EntidadeFuncionalidadeStruct {
+
+// entidade delegadaServical
+class Action1Struct {
   public readonly c1: number = 0
   public readonly c2: number = 0
 
@@ -18,15 +21,19 @@ class EntidadeFuncionalidadeStruct {
     this.c2 = x.c2
   }
 
-  // acao : das_intancias_filhas
-  // gerar novas instancias
-  static New(x: EntidadeFuncionalidade) {
-    return new EntidadeFuncionalidadeStruct(x)
+  static New(x: EntidadeFuncionalidadeInput) {
+    return new Action1Struct(x)
   }
+}
+
+// entidade altoNivel usa as outras
+class EntidadeFuncionalidadeStruct {
+  static readonly action1Struct = Action1Struct
 
   // acao: das instancias : somar
   static Action1(x: EntidadeFuncionalidadeInput): Action1Return {
-    const formula = x.c1 + x.c2
+    const input = EntidadeFuncionalidadeStruct.action1Struct.New(x)
+    const formula = input.c1 + input.c2
     return formula
   }
 }
@@ -62,5 +69,6 @@ RunAllTests()
 ALGORITMOS PARA ENTIDADE OU FUNCIONALIDADES
 
 conceito a entidade seja ela: [ pessoa, funcionalidade, produto], sera no final a representacao de um objeto.
+- uma entidade usara a outra : exemplo entidade pessoa vai usar a entidade numeros para acao soma
 
 */
