@@ -6,7 +6,6 @@ interface EntAltoNivel {
 
 type EntAction1Return = number
 type EntAltoNivelInput = EntAltoNivel
-// type EntAltoNivelInput = EntAltoNivel | EntAltoNivelType
 type Test_EntAltoNivelType = Error | void
 
 // Contrato_Estruturador :
