@@ -8,8 +8,9 @@ type FuncionalidadeRequest = Funcionalidade | FuncionalidadeStruct
 type Test_FuncionalidadeType = Error | void
 
 class FuncionalidadeStruct {
-  public c1: number = 0
-  public c2: number = 0
+  public readonly c1: number = 0
+  public readonly c2: number = 0
+
   private constructor(private x: Funcionalidade) {
     this.c1 = x.c1
     this.c2 = x.c2
