@@ -37,11 +37,11 @@ function Test_FuncionalidadeFN(op: FuncionalidadeFNReturn): Test_FuncionalidadeT
   console.log(`Ok..O TEST_PASSOU : O resultado = ${op}`)
 }
 
-const resultadoTest_Funcionalidade_OK = () => Test_FuncionalidadeFN(FuncionalidadeFN(funcionalidadeRequest_OK))
-const resultadoTest_Funcionalidade_FAIL = () => Test_FuncionalidadeFN(FuncionalidadeFN(funcionalidadeRequest_FAIL))
+const resultTest_Funcionalidade_OK = () => Test_FuncionalidadeFN(FuncionalidadeFN(funcionalidadeRequest_OK))
+const resultTest_Funcionalidade_FAIL = () => Test_FuncionalidadeFN(FuncionalidadeFN(funcionalidadeRequest_FAIL))
 
-function RotaTests() {
-  resultadoTest_Funcionalidade_OK()
-  // resultadoTest_Funcionalidade_FAIL()
+function RunTests() {
+  resultTest_Funcionalidade_OK()
+  // resultTest_Funcionalidade_FAIL()
 }
-RotaTests()
+RunTests()
