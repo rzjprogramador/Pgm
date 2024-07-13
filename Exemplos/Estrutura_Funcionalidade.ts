@@ -5,7 +5,7 @@ interface Funcionalidade {
 
 type FuncionalidadeFNReturn = number
 type FuncionalidadeRequest = Funcionalidade | FuncionalidadeStruct
-type Test_Funcionalidade = Error | void
+type Test_FuncionalidadeType = Error | void
 
 class FuncionalidadeStruct {
   public c1: number = 0
@@ -29,15 +29,15 @@ function FuncionalidadeFN(x: FuncionalidadeRequest): number {
   return formula
 }
 
-function Test_Funcionalidade(op: FuncionalidadeFNReturn): Test_Funcionalidade {
+function Test_FuncionalidadeFN(op: FuncionalidadeFNReturn): Test_FuncionalidadeType {
   if (op != 20) {
     throw new Error(`OPS..O TEST_FALHOU : O resultado = ${op}`)
   }
   console.log(`Ok..O TEST_PASSOU : O resultado = ${op}`)
 }
 
-const resultadoTest_Funcionalidade_OK = () => Test_Funcionalidade(FuncionalidadeFN(funcionalidadeRequest_OK))
-const resultadoTest_Funcionalidade_FAIL = () => Test_Funcionalidade(FuncionalidadeFN(funcionalidadeRequest_FAIL))
+const resultadoTest_Funcionalidade_OK = () => Test_FuncionalidadeFN(FuncionalidadeFN(funcionalidadeRequest_OK))
+const resultadoTest_Funcionalidade_FAIL = () => Test_FuncionalidadeFN(FuncionalidadeFN(funcionalidadeRequest_FAIL))
 
 function RotaTests() {
   resultadoTest_Funcionalidade_OK()
