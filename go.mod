@@ -1,4 +1,4 @@
-module github.com/rzjprogramador/Pgm_Universal
+module github.com/rzjprogramador/Pgm
 
 go 1.20
 

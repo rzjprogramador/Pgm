@@ -1,6 +1,6 @@
 package main
 
-import "github.com/rzjprogramador/Pgm_Universal/Pgm/linguagem/literals/tester"
+import "github.com/rzjprogramador/Pgm/Pgm/linguagem/literals/tester"
 
 func main() {
 	tester.AllLinguagemRepositoryMemory_Tester()

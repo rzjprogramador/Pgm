@@ -3,8 +3,8 @@ package tester
 import (
 	"fmt"
 
-	l "github.com/rzjprogramador/Pgm_Universal/Pgm/linguagem"
-	"github.com/rzjprogramador/Pgm_Universal/Pgm/linguagem/literals/seed_ts"
+	l "github.com/rzjprogramador/Pgm/Pgm/linguagem"
+	"github.com/rzjprogramador/Pgm/Pgm/linguagem/literals/seed_ts"
 )
 
 func AllLinguagemRepositoryMemory_Tester() {

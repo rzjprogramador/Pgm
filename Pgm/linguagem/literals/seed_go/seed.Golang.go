@@ -1,8 +1,8 @@
 package seed_go
 
 import (
-	l "github.com/rzjprogramador/Pgm_Universal/Pgm/linguagem"
-	"github.com/rzjprogramador/Pgm_Universal/Pgm/linguagem/literals/seed_go/partseed_go"
+	l "github.com/rzjprogramador/Pgm/Pgm/linguagem"
+	"github.com/rzjprogramador/Pgm/Pgm/linguagem/literals/seed_go/partseed_go"
 )
 
 var GolangSEED = l.Linguagem{
@@ -49,7 +49,7 @@ var GolangSEED = l.Linguagem{
 	Recursos: l.Recursos{
 		Apelido_Para_Importacoes: `
 		em golang posso dar apelido para encurtar importacoes funciona como um obj e uso ele nas linahs abaixo ex: antes da importacao crio o apelido e uso ans linahs babaixo ex:
-		import u "github.com/rzjprogramador/Pgm_Universal/Pgm/universal"
+		import u "github.com/rzjprogramador/Pgm/Pgm/universal"
 		// uso o < u > como um objeto para acessar suas props importadas.
 		`,
 	},

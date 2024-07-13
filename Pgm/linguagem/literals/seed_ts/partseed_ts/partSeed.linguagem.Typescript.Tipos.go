@@ -1,6 +1,6 @@
 package partseed_ts
 
-import l "github.com/rzjprogramador/Pgm_Universal/Pgm/linguagem"
+import l "github.com/rzjprogramador/Pgm/Pgm/linguagem"
 
 var Tipos_Typescript_SEED = l.Tipos{
 	Conceito: `em typescript por default a variavel ao ser preenchida ou tipada se transformará em um objeto desencadeavel para acessar seus metodos prototipos herdados. ex: variavel.METODO_HERDADO()`,

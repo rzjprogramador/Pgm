@@ -1,8 +1,8 @@
 package seed_ts
 
 import (
-	l "github.com/rzjprogramador/Pgm_Universal/Pgm/linguagem"
-	"github.com/rzjprogramador/Pgm_Universal/Pgm/linguagem/literals/seed_ts/partseed_ts"
+	l "github.com/rzjprogramador/Pgm/Pgm/linguagem"
+	"github.com/rzjprogramador/Pgm/Pgm/linguagem/literals/seed_ts/partseed_ts"
 )
 
 var TypescriptSEED = l.Linguagem{

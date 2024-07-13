@@ -3,7 +3,7 @@ package tester
 import (
 	"fmt"
 
-	"github.com/rzjprogramador/Pgm_Universal/Pgm/universal/literals/seed_universal"
+	"github.com/rzjprogramador/Pgm/Pgm/universal/literals/seed_universal"
 )
 
 func UniversalPGM_Tester() {

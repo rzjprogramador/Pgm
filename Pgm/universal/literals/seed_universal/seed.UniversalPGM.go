@@ -1,8 +1,8 @@
 package seed_universal
 
 import (
-	u "github.com/rzjprogramador/Pgm_Universal/Pgm/universal"
-	"github.com/rzjprogramador/Pgm_Universal/Pgm/universal/literals/seed_universal/partseed_universal"
+	u "github.com/rzjprogramador/Pgm/Pgm/universal"
+	"github.com/rzjprogramador/Pgm/Pgm/universal/literals/seed_universal/partseed_universal"
 )
 
 // Unir aqui todos partSEED

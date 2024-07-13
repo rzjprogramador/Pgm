@@ -1,6 +1,6 @@
 package partseed_universal
 
-import u "github.com/rzjprogramador/Pgm_Universal/Pgm/universal"
+import u "github.com/rzjprogramador/Pgm/Pgm/universal"
 
 var VariavelTipoValorSEED = u.Variavel{
 	Conceito: `é uma CELULA unidade na memoria já preenchida com o valor zero dependendo do seu tipo de dado esperado, alias sempre será de um TIPO de dado prometido/demarcado pelo dev e sempre será REPRESENTADO por um VALOR correspondente ao tipo prometido`,

@@ -1,6 +1,6 @@
 package partseed_go
 
-import l "github.com/rzjprogramador/Pgm_Universal/Pgm/linguagem"
+import l "github.com/rzjprogramador/Pgm/Pgm/linguagem"
 
 var Tipos_Golang_SEED = l.Tipos{
 	Conceito: `em golang por default a variavel com valor nNÃO vira um objeto desencadeavel para acessar seus metodos herdados

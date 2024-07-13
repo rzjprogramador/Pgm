@@ -1,6 +1,6 @@
 package partseed_universal
 
-import "github.com/rzjprogramador/Pgm_Universal/Pgm/universal"
+import "github.com/rzjprogramador/Pgm/Pgm/universal"
 
 var PartSeed_Algoritmos = universal.Algoritmos{
 

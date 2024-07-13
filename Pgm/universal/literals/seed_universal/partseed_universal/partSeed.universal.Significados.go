@@ -1,6 +1,6 @@
 package partseed_universal
 
-import u "github.com/rzjprogramador/Pgm_Universal/Pgm/universal"
+import u "github.com/rzjprogramador/Pgm/Pgm/universal"
 
 var SignificadosSEED = u.Significados{
 	Computador: u.Computador{
