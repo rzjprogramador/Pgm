@@ -17,13 +17,14 @@ type Convencao struct {
 }
 
 type Nomeacao struct {
-	NovaNomeacao NovoConceito
+	Contexto NovoConceito
 }
 
 type NovoConceito struct {
-	Titulo     string
-	Conceito []string
-	Tutoriais  []Tutoriais
+	Titulo    string
+	Conceito  []string
+	Exemplos  []string
+	Tutoriais []Tutoriais
 }
 
 type Variavel struct {
@@ -66,9 +67,7 @@ type Implementacoes struct {
 }
 
 type Significados struct {
-	Titulo     string
-	Explicacao []string
-	Tutoriais  []Tutoriais
+	Contexto NovoConceito
 }
 
 type Tutoriais struct {

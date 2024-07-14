@@ -1,4 +1,4 @@
-const newUser1 = { nome: "Reinaldo", sobrenome: "Zacharias"}
+const newUserRequest1 = { nome: "Reinaldo", sobrenome: "Zacharias"}
 
 const createUser = (newUser) => newUser
 

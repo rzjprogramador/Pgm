@@ -3,61 +3,93 @@ package partseed_universal
 import u "github.com/rzjprogramador/Pgm/Pgm/universal"
 
 var O_Computador_entende = u.Significados{
-	Titulo:     "O_Computador_entende",
-	Explicacao: []string{"somente binarios 0 e 1 onde 0 é falso", "circuito apagado e 1 é verdadeiro circuito acesso."},
-	Tutoriais:  []u.Tutoriais{{By: "#naoTem", Link: "#naoTem"}},
+	Contexto: u.NovoConceito{
+		Titulo:    "O_Computador_entende",
+		Conceito:  []string{"somente binarios 0 e 1 onde 0 é falso", "circuito apagado e 1 é verdadeiro circuito acesso."},
+		Exemplos:  []string{""},
+		Tutoriais: []u.Tutoriais{{By: "#naoTem", Link: "#naoTem"}},
+	},
 }
 
 var Linguagem_De_Programacao = u.Significados{
-	Titulo:     "Linguagem_De_Programacao",
-	Explicacao: []string{"Linguagem é o idioma onde criaremos o codigo fonte das nossas insyrucoes, e para o pc entender precisara de um interpretador ou um compilador para entregar ao pc em binario."},
-	Tutoriais:  []u.Tutoriais{{By: "#naoTem", Link: "#naoTem"}},
+	Contexto: u.NovoConceito{
+		Titulo:    "Linguagem_De_Programacao",
+		Conceito:  []string{"Linguagem é o idioma onde criaremos o codigo fonte das nossas insyrucoes, e para o pc entender precisara de um interpretador ou um compilador para entregar ao pc em binario."},
+		Exemplos:  []string{""},
+		Tutoriais: []u.Tutoriais{{By: "#naoTem", Link: "#naoTem"}},
+	},
 }
 
 var Linguagem_Compilada = u.Significados{
-	Titulo:     "Linguagem_Compilada",
-	Explicacao: []string{"Sao todas que cokpilamos o codigo fonte para binario, obs: as compiladas sao mais rapidas por ja entregarem em binario e o pc processa naturalmentevmais rapido.", "Ex: [ C, Golang, python, java,]"},
-	Tutoriais:  []u.Tutoriais{{By: "#naoTem", Link: "#naoTem"}},
+	Contexto: u.NovoConceito{
+		Titulo:    "Linguagem_Compilada",
+		Conceito:  []string{"Sao todas que cokpilamos o codigo fonte para binario, obs: as compiladas sao mais rapidas por ja entregarem em binario e o pc processa naturalmentevmais rapido.", "Ex: [ C, Golang, python, java,]"},
+		Exemplos:  []string{""},
+		Tutoriais: []u.Tutoriais{{By: "#naoTem", Link: "#naoTem"}},
+	},
 }
 
 var Linguagem_Interpretada = u.Significados{
-	Titulo:     "Linguagem_Interpretada",
-	Explicacao: []string{"Sao todas que nao compilam para binario, para serem entendidas pelo pc precisa de um interpretador", "Ex: [ Javascript, typescript,  ]"},
-	Tutoriais:  []u.Tutoriais{{By: "#naoTem", Link: "#naoTem"}},
+	Contexto: u.NovoConceito{
+		Titulo:    "Linguagem_Interpretada",
+		Conceito:  []string{"Sao todas que nao compilam para binario, para serem entendidas pelo pc precisa de um interpretador", "Ex: [ Javascript, typescript,  ]"},
+		Exemplos:  []string{""},
+		Tutoriais: []u.Tutoriais{{By: "#naoTem", Link: "#naoTem"}},
+	},
 }
-var n = u.Significados{
-	Titulo:     "lib",
-	Explicacao: []string{"funcoes/modulos externas importaveis", "pacote", "Voce tem a liberdade de configurar do seu modo essa funcionalidade"},
-	Tutoriais:  []u.Tutoriais{{By: "#naoTem", Link: "#naoTem"}},
+
+var Lib = u.Significados{
+	Contexto: u.NovoConceito{
+		Titulo:    "lib",
+		Conceito:  []string{"funcoes/modulos externas importaveis", "pacote", "Voce tem a liberdade de configurar do seu modo essa funcionalidade"},
+		Exemplos:  []string{""},
+		Tutoriais: []u.Tutoriais{{By: "#naoTem", Link: "#naoTem"}},
+	},
 }
+
 var Framework = u.Significados{
-	Titulo:     "Framework",
-	Explicacao: []string{"Parece uma lib a diferenca que voce tem que usar esta lib/framework do jeito que ela foi programada para ser usada.", "voce tem que seguir suas regras de uso"},
-	Tutoriais:  []u.Tutoriais{{By: "#naoTem", Link: "#naoTem"}},
+	Contexto: u.NovoConceito{
+		Titulo:    "Framework",
+		Conceito:  []string{"Parece uma lib a diferenca que voce tem que usar esta lib/framework do jeito que ela foi programada para ser usada.", "voce tem que seguir suas regras de uso"},
+		Exemplos:  []string{""},
+		Tutoriais: []u.Tutoriais{{By: "#naoTem", Link: "#naoTem"}},
+	},
 }
 
 var Caracteristicas = u.Significados{
-	Titulo:     "Caracteristicas",
-	Explicacao: []string{"Atributos", "Campos", "Propriedades Props", "key chave com valor", "Coisas que tenho?", "Posso ter?", "obs: os campos de estado serão: do tipo LOGICO boleano", ""},
-	Tutoriais:  []u.Tutoriais{{By: "#naoTem", Link: "#naoTem"}},
+	Contexto: u.NovoConceito{
+		Titulo:    "Caracteristicas",
+		Conceito:  []string{"Atributos", "Campos", "Propriedades Props", "key chave com valor", "Coisas que tenho?", "Posso ter?", "obs: os campos de estado serão: do tipo LOGICO boleano", ""},
+		Exemplos:  []string{""},
+		Tutoriais: []u.Tutoriais{{By: "#naoTem", Link: "#naoTem"}},
+	},
 }
 
 var Comportamento = u.Significados{
-	Titulo:     "Comportamento",
-	Explicacao: []string{"Metodos", "Coisas que posso fazer?", "Funcao", "Metodo : funcao ligada a um objeto"},
-	Tutoriais:  []u.Tutoriais{{By: "#naoTem", Link: "#naoTem"}},
+	Contexto: u.NovoConceito{
+		Titulo:    "Comportamento",
+		Conceito:  []string{"Metodos", "Coisas que posso fazer?", "Funcao", "Metodo : funcao ligada a um objeto"},
+		Exemplos:  []string{""},
+		Tutoriais: []u.Tutoriais{{By: "#naoTem", Link: "#naoTem"}},
+	},
 }
 
 var Estado = u.Significados{
-	Titulo:     "Estado",
-	Explicacao: []string{"Como estou agora?", "Estado_Atual"},
-	Tutoriais:  []u.Tutoriais{{By: "#naoTem", Link: "#naoTem"}},
+	Contexto: u.NovoConceito{
+		Titulo:    "Estado",
+		Conceito:  []string{"Como estou agora?", "Estado_Atual"},
+		Exemplos:  []string{""},
+		Tutoriais: []u.Tutoriais{{By: "#naoTem", Link: "#naoTem"}},
+	},
 }
 
 var Objeto = u.Significados{
-	Titulo:     "Objeto",
-	Explicacao: []string{"Tudo que tem : [ Caracteristicas, Comportamento, Estado]", "Instancia filho(s) instanciados apartir de uma estrutura", "Pode ser material (posso tocar) ou abstrato (nao posso tocar mas existe)", "Para criar um obj pergunte-se: [Coisas que tenho: Props, Coisas que faço: metodos, Como estou agora: Estado <sera uma caracterista do tipo LOGICO boleano]", "Todo objeto vem a apartir de um molde/classe/estrutura"},
-	Tutoriais:  []u.Tutoriais{{By: "CursoEmVideo", Link: "https://www.youtube.com/watch?v=aR7CKNFECx0&t=939s"}},
+	Contexto: u.NovoConceito{
+		Titulo:    "Objeto",
+		Conceito:  []string{"Tudo que tem : [ Caracteristicas, Comportamento, Estado]", "Instancia filho(s) instanciados apartir de uma estrutura", "Pode ser material (posso tocar) ou abstrato (nao posso tocar mas existe)", "Para criar um obj pergunte-se: [Coisas que tenho: Props, Coisas que faço: metodos, Como estou agora: Estado <sera uma caracterista do tipo LOGICO boleano]", "Todo objeto vem a apartir de um molde/classe/estrutura"},
+		Exemplos:  []string{""},
+		Tutoriais: []u.Tutoriais{{By: "CursoEmVideo", Link: "https://www.youtube.com/watch?v=aR7CKNFECx0&t=939s"}},
+	},
 }
 
 /*
