@@ -7,8 +7,6 @@ import (
 
 // Unir aqui todos partSEED
 var UniversalPGMSEED = u.UniversalPGM{
-	Significados: partseed_universal.SignificadosSEED,
-
 	Variavel_Guarda_TipoDeDado_Representado_por_um_Valor: partseed_universal.VariavelTipoValorSEED,
 }
 

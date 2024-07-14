@@ -52,32 +52,14 @@ type Implementacoes struct {
 }
 
 type Significados struct {
-	Computador Computador
-	Linguagem  Linguagem
-	Algoritmos Algoritmos
-	Dev        Dev
+	Titulo       string
+	Significados []string
+	Tutoriais    []Tutoriais
 }
 
-type Computador struct {
-	O_Computador_entende string
-}
-
-type Linguagem struct {
-	Linguagem_De_Programacao string
-	Linguagem_Compilada      string
-	Linguagem_Interpretada   string
-}
-type Algoritmos struct {
-	Pensamento_Declaracoes          string
-	Metodos_Computaveis             string
-	Valor                           []string
-	Valor_e_seus_Tipos              Tipos_Valor
-	Campos_Com_Valores_Default_UNIV Algoritmo_Type_UNIV
-}
-
-type Algoritmo_Type_UNIV struct {
-	Algoritmo string
-	Exemplo   string
+type Tutoriais struct {
+	By   string
+	Link string
 }
 
 type Tipos_Valor struct {
@@ -93,10 +75,6 @@ type Tipos_Valor struct {
 	Numero_Inteiro_SomentePositivo string
 	Numero_Complexo                string
 	Logico                         string
-}
-
-type Dev struct {
-	Lib []string
 }
 
 type Gerador_De_Objeto_Via_Construtor struct {
