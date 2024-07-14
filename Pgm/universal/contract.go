@@ -12,6 +12,20 @@ type UniversalPGM struct {
 	Variavel_Guarda_TipoDeDado_Representado_por_um_Valor Variavel
 }
 
+type Convencao struct {
+	Nomeacao Nomeacao
+}
+
+type Nomeacao struct {
+	NovaNomeacao NovoConceito
+}
+
+type NovoConceito struct {
+	Titulo     string
+	Conceito []string
+	Tutoriais  []Tutoriais
+}
+
 type Variavel struct {
 	Conceito                      string
 	Tipos_para_Variaveis          []string
@@ -52,9 +66,9 @@ type Implementacoes struct {
 }
 
 type Significados struct {
-	Titulo       string
-	Significados []string
-	Tutoriais    []Tutoriais
+	Titulo     string
+	Explicacao []string
+	Tutoriais  []Tutoriais
 }
 
 type Tutoriais struct {
