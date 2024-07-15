@@ -86,7 +86,7 @@ var Estado = u.Significados{
 var Objeto = u.Significados{
 	Contexto: u.NovoConceito{
 		Titulo:    "Objeto",
-		Conceito:  []string{"Tudo que tem : [ Caracteristicas, Comportamento, Estado]", "Instancia filho(s) instanciados apartir de uma estrutura", "Pode ser material (posso tocar) ou abstrato (nao posso tocar mas existe)", "Para criar um obj pergunte-se: [Coisas que tenho: Props, Coisas que faço: metodos, Como estou agora: Estado <sera uma caracterista do tipo LOGICO boleano]", "Todo objeto vem a apartir de um molde/classe/estrutura"},
+		Conceito:  []string{"Tudo que tem : [ Caracteristicas, Comportamento, Estado]", "Instancia filho(s) instanciados apartir de uma estrutura", "Pode ser material (posso tocar) ou abstrato (nao posso tocar mas existe)", "Para criar um obj pergunte-se: [Coisas que tenho: Props, Coisas que faço: metodos, Como estou agora: Estado <sera uma caracterista do tipo LOGICO boleano]", "Todo objeto vem a apartir de um molde/classe/estrutura", "Um valor é uma variavel - mais que 1 valor agrupamos variaveis dentro de um objeto - entao no fundo objeto é mais que um valor dentro de uma referencia.", "Sua origem vem de um molde que estrutura objetos ex: class, struct, etc conforme a linguagem, e depois deste molde ser instanciado da origem a um ou mais objetos."},
 		Exemplos:  []string{""},
 		Tutoriais: []u.Tutoriais{{By: "CursoEmVideo", Link: "https://www.youtube.com/watch?v=aR7CKNFECx0&t=939s"}},
 	},
@@ -95,7 +95,7 @@ var Objeto = u.Significados{
 var Molde = u.Significados{
 	Contexto: u.NovoConceito{
 		Titulo:    "Molde",
-		Conceito:  []string{"O que Modela um Objeto", "Contrato", "Formato - Formatador", "Classe", "Struct", "Modelador de NovoTipo Personalizado"},
+		Conceito:  []string{"O que Modela um Objeto", "Contrato", "Formato - Formatador", "Classe", "Struct", "Modelador de NovoTipo Personalizado", "fabrica de instancias de um modelo objeto."},
 		Exemplos:  []string{"Interface em Typescript"},
 		Tutoriais: []u.Tutoriais{{By: "", Link: ""}},
 	},
