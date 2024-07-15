@@ -115,13 +115,11 @@ type Recursos struct {
 
 type Algortimo_LING struct {
 	Pensamento_Declaracoes                               string
-	Estrutura_Modeladora_de_Objeto_Instancia_de_NovoTipo string
-	Gerar_Instancia                                      string
-	Campos_Fixo_na_Instancia                             string
-	Campos_Dinamicos_na_Instancia                        string
-	Dar_Intelegencia_Ha_Instancia                        string
-	Campos_Com_Valores_Default                           Algoritmo_Type_LING
-	Composicao Composicao
+
+}
+
+type Objeto struct{
+	Objeto_Contexto Objeto_Contexto
 }
 
 type Algoritmo_Type_LING struct {
@@ -129,14 +127,32 @@ type Algoritmo_Type_LING struct {
 	Exemplo   string
 }
 
-type Composicao struct{
-	Conceito string
+type Composicao_Contexto struct {
+	Conceito                                 string
 	Campo_Que_Pode_Variar_Tendo_Mesmas_Acoes Contexto
 }
 
-type Contexto struct{
-	Titulo string
+type Contexto struct {
+	Titulo   string
 	Objetivo string
-	Molde string
+	Molde    string
+	Exemplos []string
+}
+
+type Objeto_Contexto struct {
+	Molde_Gerador_da_Informacao string
+	Gerar_Instancia                                      string
+	Campos_Fixo_na_Instancia                             string
+	Campos_Dinamicos_na_Instancia                        string
+	Dar_Intelegencia_Ha_Instancia                        string
+	Campos_Com_Valores_Default                           Algoritmo_Type_LING
+	Composicao                  Composicao_Contexto
+	Criar_Metodo_Para_o_Objeto  Implementacao
+}
+
+type Implementacao struct {
+	Contexto string
+	Macete   string
+	Ditado   string
 	Exemplos []string
 }

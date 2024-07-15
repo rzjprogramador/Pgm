@@ -10,5 +10,6 @@ func main() {
 	// tester.Typescript_Tester()
 	// tester.Golang_Tester()
 	// tester.UniversalPGM_Tester()
-	exemplos.TesterGerenciamentoDeDado()
+	// exemplos.TesterGerenciamentoDeDado()
+	exemplos.Tester_ObjetoGO()
 }

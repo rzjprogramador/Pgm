@@ -51,4 +51,5 @@ var TypescriptSEED = l.Linguagem{
 	},
 
 	Codigo: partseed_ts.Algoritmo_TS,
+	
 }
