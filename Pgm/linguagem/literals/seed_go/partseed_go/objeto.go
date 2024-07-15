@@ -25,9 +25,14 @@ var Objeto_GO = l.Objeto{
 				Objetivo: `ter um objPai. carro ou moto . vao_Ter_Acao_Foo()`,
 				Molde: `cria-se uma interface com somente metodos que vai querer que os objetos que SEJAM UM DESTA INTERFACE tenham .
 
-				Obs: cada SubTipo tem que replicar um metodo com o mesmmo nome da funcao definida na interface , vai ser polimorfico cada tipo pode implementar do seu jeito só tem que devolve ro emsmo tipo prometido no contrato da interface.
+				Obs: cada SubTipo tem que replicar um metodo com o mesmo nome da funcao definida na interface , vai ser polimorfico cada tipo pode implementar do seu jeito só tem que devolver o mesmo tipo prometido no contrato da interface ::
+				subTipos para composicao no tipoPrincipal : o que vai unir fazer SER_UM do usado no principal sao os metodos de interface implementados com o This .
 
 				Quem replicar o comportamento da interface inserindo o seu This SERA_UM desta interface ex: os 2 Tipos replicaram o metodo da interface - quer dizer que eles SAO UM AGORA .. assim cada instancia podera fazer composicao do objeto instanciado que desejar basta ele ser do tipo prometido.
+
+				diferencas: metodo x interface
+				metodo = reflete somente em 1 tipo de instancia/objeto.
+				metodoDeInterface = reflete em varios tipos de objetos que seu tipo repĺica o metodo polimorfico igual da interface.
 				`,
 
 				Exemplos: []string{
@@ -37,12 +42,14 @@ var Objeto_GO = l.Objeto{
 
 import "fmt"
 
+// Tipo_Principal - AltoNivel
 type ObjetoGO struct {
 	C1                string
 	C2                string
 	ComposicaoVariada Variado
 }
 
+// SubTipos
 type OpcaoVariada1 struct {
 	C1 string
 }
@@ -50,17 +57,17 @@ type OpcaoVariada2 struct {
 	C1 string
 }
 
-// definindo interface - metodos polimorficos que podem ser implemenatdos diferenets mas retornando o tipo prometido.
-type Variado interface {
-	ComportamentoSejaQualForOObjeto() string
-}
-
-// criando metodo
+// criando metodo : Reflete Somente em um Tipo de Instancia Somente
 func (o ObjetoGO) ComportamentoGO1() string {
 	return fmt.Sprintf("%s fez a Acao do ComportamentoGO1", o.C1)
 }
 
-// .
+// Contrato de Metodos Interface - Metodos_Polimorficos : Atinge Todos Tipos de instancias que o implementam
+type Variado interface {
+	ComportamentoSejaQualForOObjeto() string
+}
+
+// replicando metodo da interface - com os SubTipos de Composicao
 
 func (o OpcaoVariada1) ComportamentoSejaQualForOObjeto() string {
 	return fmt.Sprintf("Meu Jeito1:: var Interpolada >> %s ", o.C1)
@@ -70,6 +77,7 @@ func (o OpcaoVariada2) ComportamentoSejaQualForOObjeto() string {
 	return fmt.Sprintf("Meu Jeito2:: var Interpolada >> %s", o.C1)
 }
 
+// Tester
 func Tester_ObjetoGO() {
 	opcaovariada1 := OpcaoVariada1{C1: "FooVariada1"}
 	opcaovariada2 := OpcaoVariada2{C1: "FooVariada1"}
@@ -91,6 +99,7 @@ func Tester_ObjetoGO() {
 	fmt.Println(instancia1.ComposicaoVariada.ComportamentoSejaQualForOObjeto())
 	fmt.Println(instancia2.ComposicaoVariada.ComportamentoSejaQualForOObjeto())
 }
+
 					`,
 				},
 			},
