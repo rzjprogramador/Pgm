@@ -80,7 +80,7 @@ func (o OpcaoVariada2) ComportamentoSejaQualForOObjeto() string {
 // Tester
 func Tester_ObjetoGO() {
 	opcaovariada1 := OpcaoVariada1{C1: "FooVariada1"}
-	opcaovariada2 := OpcaoVariada2{C1: "FooVariada1"}
+	opcaovariada2 := OpcaoVariada2{C1: "FooVariada2"}
 
 	instancia1 := ObjetoGO{
 		C1:                "CAMPOUM",
