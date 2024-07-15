@@ -121,9 +121,22 @@ type Algortimo_LING struct {
 	Campos_Dinamicos_na_Instancia                        string
 	Dar_Intelegencia_Ha_Instancia                        string
 	Campos_Com_Valores_Default                           Algoritmo_Type_LING
+	Composicao Composicao
 }
 
 type Algoritmo_Type_LING struct {
 	Algoritmo string
 	Exemplo   string
+}
+
+type Composicao struct{
+	Conceito string
+	Campo_Que_Pode_Variar_Tendo_Mesmas_Acoes Contexto
+}
+
+type Contexto struct{
+	Titulo string
+	Objetivo string
+	Molde string
+	Exemplos []string
 }

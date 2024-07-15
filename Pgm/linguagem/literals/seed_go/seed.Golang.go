@@ -54,17 +54,6 @@ var GolangSEED = l.Linguagem{
 		`,
 	},
 
-	Codigo: l.Algortimo_LING{
-		Pensamento_Declaracoes:                               `Escopo TalNome - É UMa estrutura { E VAI TER ... } ex: type TalNome struct { tera... } `,
-		Estrutura_Modeladora_de_Objeto_Instancia_de_NovoTipo: `Criar um struct/estrutura. ex: type NomeDoNovoTipo struct { ... campos doTipo ... }`,
-		Gerar_Instancia:                                      `func funcaoNomeDoNovoTipo(t Tipo) { return t}`,
-		Campos_Fixo_na_Instancia:                             `#TODO`,
-		Campos_Dinamicos_na_Instancia:                        `#TODO`,
-		Dar_Intelegencia_Ha_Instancia:                        `Criar Metodos_Computaveis. ex: `,
+	Codigo: partseed_go.Algoritmo_GO,
 
-		Campos_Com_Valores_Default: l.Algoritmo_Type_LING{
-			Algoritmo: `no struct inserir campo default: valor`,
-			Exemplo:   `#todo`,
-		},
-	},
 }
