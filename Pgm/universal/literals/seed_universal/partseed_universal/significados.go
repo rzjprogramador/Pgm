@@ -92,6 +92,15 @@ var Objeto = u.Significados{
 	},
 }
 
+var Molde = u.Significados{
+	Contexto: u.NovoConceito{
+		Titulo:    "Molde",
+		Conceito:  []string{"O que Modela um Objeto", "Contrato", "Formato - Formatador", "Classe", "Struct", "Modelador de NovoTipo Personalizado"},
+		Exemplos:  []string{"Interface em Typescript"},
+		Tutoriais: []u.Tutoriais{{By: "", Link: ""}},
+	},
+}
+
 /*
 ALGORITMOS
 
