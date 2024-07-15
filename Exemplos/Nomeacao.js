@@ -1,11 +1,17 @@
-const newUserRequest1 = { nome: "Reinaldo", sobrenome: "Zacharias"}
-
-const createUser = (newUser) => newUser
-
-const UserRepositoryMemory = {
-  create (newUser) {
-    return newUser
+class UserModel {
+  nome;
+  sobrenome;
+  constructor(userRequest) {
+    this.nome = userRequest.nome;
+    this.sobrenome = userRequest.sobrenome;
   }
 }
 
-console.log(createUser(newUser1))
+// Funcao Factory : vira o pontoUnico onde se instancia o objeto - dispensando factoryMethod na classe, ou criar metodos staticos
+const CreateUserFactory = (u) => {
+  return new UserModel(u);
+};
+
+const newUserRequest1 = { nome: "Reinaldo", sobrenome: "Zacharias" };
+
+console.log(CreateUserFactory(newUserRequest1));
