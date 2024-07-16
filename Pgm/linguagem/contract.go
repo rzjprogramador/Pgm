@@ -155,3 +155,7 @@ type Objeto_Info struct {
 	Ditado   string
 	Exemplos []string
 }
+
+type RecursosLinguagem struct{
+	Devolver_Tipo_da_Variavel string
+}
