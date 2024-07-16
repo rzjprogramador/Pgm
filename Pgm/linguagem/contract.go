@@ -156,6 +156,19 @@ type Objeto_Info struct {
 	Exemplos []string
 }
 
-type RecursosLinguagem struct{
+type RecursosLinguagem struct {
 	Devolver_Tipo_da_Variavel string
+}
+
+type Array struct {
+	Declarar_Array     string
+	Modificar_Item     string
+	Remover_Item       string
+	Remover_UltimoItem string
+	Add_Varios_Items   string
+	Add_Item_Hard      string
+	Add_Item_Dinamico  string
+	Pegar_Pedaco       string
+	Pegar_PrimeiroItem string
+	Pegar_UltimoItem   string
 }

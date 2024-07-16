@@ -101,6 +101,19 @@ type Formulas struct {
 	Porcentagem_entre_2_valores string
 }
 
-type Objeto_Universal struct{
+type Objeto_Universal struct {
 	Dar_Intelegencia_Ha_Instancia string
+}
+
+type Array_Universal struct {
+	Declarar_Array     string
+	Modificar_Item     string
+	Remover_Item       string
+	Remover_UltimoItem string
+	Add_Varios_Items      string
+	Add_Item_Hard      string
+	Add_Item_Dinamico  string
+	Pegar_Pedaco       string
+	Pegar_PrimeiroItem string
+	Pegar_UltimoItem   string
 }
