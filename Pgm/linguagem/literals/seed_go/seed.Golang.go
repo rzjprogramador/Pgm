@@ -33,7 +33,7 @@ var GolangSEED = l.Linguagem{
 	Libs: l.Libs{
 		PacotesConfiaveis: []string{"https://pkg.go.dev/"},
 	},
-	InterfaceDefinicaoDeNovosTipos: l.InterfaceDefinicaoDeNovosTipos{
+	MoldeDefinicaoDeNovosTipos: l.MoldeDefinicaoDeNovosTipos_Ctx{
 		Conceito: `
 		contrato_interface: em golang para formar um obj onde o campo pode ser de um tipo ou de outro tipo de obj
 		usamos a interface.
@@ -55,5 +55,4 @@ var GolangSEED = l.Linguagem{
 	},
 
 	Codigo: partseed_go.Algoritmo_GO,
-
 }

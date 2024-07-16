@@ -33,7 +33,7 @@ var TypescriptSEED = l.Linguagem{
 	Libs: l.Libs{
 		PacotesConfiaveis: []string{"https://www.w3schools.com/js/", "https://developer.mozilla.org/pt-BR/docs/Web/Typescript"},
 	},
-	InterfaceDefinicaoDeNovosTipos: l.InterfaceDefinicaoDeNovosTipos{
+	MoldeDefinicaoDeNovosTipos: l.MoldeDefinicaoDeNovosTipos_Ctx{
 		Conceito: `
 		#TODO
 		`,
@@ -51,5 +51,4 @@ var TypescriptSEED = l.Linguagem{
 	},
 
 	Codigo: partseed_ts.Algoritmo_TS,
-	
 }

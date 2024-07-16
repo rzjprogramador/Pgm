@@ -1,23 +1,26 @@
 package partseed_go
 
-import l "github.com/rzjprogramador/Pgm/Pgm/linguagem"
+import (
+	l "github.com/rzjprogramador/Pgm/Pgm/linguagem"
+	"github.com/rzjprogramador/Pgm/Pgm/universal/literals/seed_universal/partseed_universal"
+)
 
 var Objeto_GO = l.Objeto{
-	Objeto_Contexto: l.Objeto_Contexto{
+	Objeto_Contexto: l.Objeto_Ctx{
 
 		Molde_Gerador_da_Informacao: "struct",
 
 		Gerar_Instancia:               `func funcaoNomeDoNovoTipo(t Tipo) { return t}`,
 		Campos_Fixo_na_Instancia:      `#TODO`,
 		Campos_Dinamicos_na_Instancia: `#TODO`,
-		Dar_Intelegencia_Ha_Instancia: `Criar Metodos_Computaveis. ex: `,
+		Dar_Intelegencia_Ha_Instancia: partseed_universal.Objeto_Universal.Dar_Intelegencia_Ha_Instancia,
 
 		Campos_Com_Valores_Default: l.Algoritmo_Type_LING{
 			Algoritmo: `no struct inserir campo default: valor`,
 			Exemplo:   `#todo`,
 		},
 
-		Composicao: l.Composicao_Contexto{
+		Composicao: l.Composicao_Ctx{
 			Conceito: "Campo de um objeto que Delega a outro objeto fazer a acao por ele.",
 
 			Campo_Que_Pode_Variar_Tendo_Mesmas_Acoes: l.Contexto{
@@ -105,7 +108,7 @@ func Tester_ObjetoGO() {
 			},
 		},
 
-		Criar_Metodo_Para_o_Objeto: l.Implementacao{
+		Criar_Metodo_Para_o_Objeto: l.Objeto_Info{
 			Contexto: "#todo",
 			Macete:   "faz a funcao normal dps da clausula func entre parenteses -( defina a variavel que sera o this para acessar os campos do Objeto e qual é o tipo deste objeto a sera acessado)",
 			Ditado:   "só de usar a var this entre parenteses referenciando o Tipo ja define como um metodo deste tipo para todas suas intancias usarem.",

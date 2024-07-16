@@ -63,7 +63,6 @@ type Implementacoes struct {
 	Operacoes                        Operacoes
 	Loop_For                         string
 	Formulas                         Formulas
-	CodigoUniversal                  CodigoUniversal
 }
 
 type Significados struct {
@@ -102,10 +101,6 @@ type Formulas struct {
 	Porcentagem_entre_2_valores string
 }
 
-type CodigoUniversal struct {
-	Objetos Objetos
-}
-
-type Objetos struct {
-	Dar_Inteligencia_Ha_Instancias string
+type Objeto_Universal struct{
+	Dar_Intelegencia_Ha_Instancia string
 }

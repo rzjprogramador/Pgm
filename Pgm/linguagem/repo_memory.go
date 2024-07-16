@@ -5,19 +5,19 @@ import (
 )
 
 // Instanciar Obj da estrutura
-func LinguagemRepositoryMemory() linguagemRepository {
-	repo := linguagemRepository{
+func LinguagemRepositoryMemory() LinguagemRepository {
+	repo := LinguagemRepository{
 		Items: arraylist.New(),
 	}
 	return repo
 }
 
 // Implementar metodos
-func (r linguagemRepository) Createlinguagem(p Linguagem) string {
+func (r LinguagemRepository) Createlinguagem(p Linguagem) string {
 	r.Items.Add(p)
 	return "Criado com sucesso!"
 }
 
-func (r linguagemRepository) GetAll() *arraylist.List {
+func (r LinguagemRepository) GetAll() *arraylist.List {
 	return r.Items
 }

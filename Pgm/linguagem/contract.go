@@ -6,15 +6,15 @@ import (
 
 // tipagem da entidade principal
 type Linguagem struct {
-	Linguagem                      string
-	Valor                          Valor
-	ObterInformacao                ObterInformacao
-	Colecoes                       Colecoes
-	Libs                           Libs
-	InterfaceDefinicaoDeNovosTipos InterfaceDefinicaoDeNovosTipos
-	Regras                         Regras
-	Recursos                       Recursos
-	Codigo                         Algortimo_LING
+	Linguagem                  string
+	Valor                      Valor
+	ObterInformacao            ObterInformacao
+	Colecoes                   Colecoes
+	Libs                       Libs
+	MoldeDefinicaoDeNovosTipos MoldeDefinicaoDeNovosTipos_Ctx
+	Regras                     Regras
+	Recursos                   Recursos
+	Codigo                     Algortimo_LING
 }
 
 type Valor struct {
@@ -85,7 +85,7 @@ type Libs struct {
 }
 
 // Tipagem Repositorio -- para salvar dados da entidade principal
-type linguagemRepository struct {
+type LinguagemRepository struct {
 	Items *arraylist.List
 	// Obs: Items nao tem problema ser um tipo externo de lib - porque é usado somente em memoria - na real o bd nao tem items
 }
@@ -101,7 +101,7 @@ type ICollectionlinguagem interface {
 	[]Linguagem | *arraylist.List
 }
 
-type InterfaceDefinicaoDeNovosTipos struct {
+type MoldeDefinicaoDeNovosTipos_Ctx struct {
 	Conceito string
 }
 
@@ -114,12 +114,11 @@ type Recursos struct {
 }
 
 type Algortimo_LING struct {
-	Pensamento_Declaracoes                               string
-
+	Pensamento_Declaracoes string
 }
 
-type Objeto struct{
-	Objeto_Contexto Objeto_Contexto
+type Objeto struct {
+	Objeto_Contexto Objeto_Ctx
 }
 
 type Algoritmo_Type_LING struct {
@@ -127,7 +126,7 @@ type Algoritmo_Type_LING struct {
 	Exemplo   string
 }
 
-type Composicao_Contexto struct {
+type Composicao_Ctx struct {
 	Conceito                                 string
 	Campo_Que_Pode_Variar_Tendo_Mesmas_Acoes Contexto
 }
@@ -139,18 +138,18 @@ type Contexto struct {
 	Exemplos []string
 }
 
-type Objeto_Contexto struct {
-	Molde_Gerador_da_Informacao string
-	Gerar_Instancia                                      string
-	Campos_Fixo_na_Instancia                             string
-	Campos_Dinamicos_na_Instancia                        string
-	Dar_Intelegencia_Ha_Instancia                        string
-	Campos_Com_Valores_Default                           Algoritmo_Type_LING
-	Composicao                  Composicao_Contexto
-	Criar_Metodo_Para_o_Objeto  Implementacao
+type Objeto_Ctx struct {
+	Molde_Gerador_da_Informacao   string
+	Gerar_Instancia               string
+	Campos_Fixo_na_Instancia      string
+	Campos_Dinamicos_na_Instancia string
+	Dar_Intelegencia_Ha_Instancia string
+	Campos_Com_Valores_Default    Algoritmo_Type_LING
+	Composicao                    Composicao_Ctx
+	Criar_Metodo_Para_o_Objeto    Objeto_Info
 }
 
-type Implementacao struct {
+type Objeto_Info struct {
 	Contexto string
 	Macete   string
 	Ditado   string

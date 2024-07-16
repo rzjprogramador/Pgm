@@ -57,12 +57,6 @@ func Implementacoes() u.Implementacoes {
 		Formulas: u.Formulas{
 			Porcentagem_entre_2_valores: `https://youtu.be/Jd_wrMJKdQg?si=fg8MWYJrFOQ3koJb`,
 		},
-
-		CodigoUniversal: u.CodigoUniversal{
-			u.Objetos{
-				Dar_Inteligencia_Ha_Instancias: `Criar Metodos_Computaveis que daram acoes as instancias com seus proprios campos - ou seja as informacoes que elas tiverem poderam ser COMPUTADAS entre eles mesmos e gerar resultados. obs: use somente para gerar Computados.`,
-			},
-		},
 	}
 }
 
