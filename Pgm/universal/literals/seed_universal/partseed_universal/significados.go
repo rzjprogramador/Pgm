@@ -101,6 +101,15 @@ var Molde = u.Significados{
 	},
 }
 
+var This_ProprioEscopo = u.Significados{
+	Contexto: u.NovoConceito{
+		Titulo:    "This_Este",
+		Conceito:  []string{"è o ProprioEscopo o nivel mais superior do escopo da entidade que esta", "variavel que acessa aos campos do molde | do escopo maior que cerca todo o objeto onde esta.", "è o proprio objeto e acessa com variavel ex: c.campo ou this.campo"},
+		Exemplos:  []string{""},
+		Tutoriais: []u.Tutoriais{{By: "", Link: ""}},
+	},
+}
+
 /*
 ALGORITMOS
 

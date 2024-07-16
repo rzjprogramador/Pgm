@@ -22,7 +22,7 @@ var Objeto_GO = l.Objeto{
 
 			Campo_Que_Pode_Variar_Tendo_Mesmas_Acoes: l.Contexto{
 				Titulo:   "Campo_Que_Pode_Variar_Tendo_Mesmas_Acoes",
-				Objetivo: `ter um objPai. carro ou moto . vao_Ter_Acao_Foo()`,
+				Objetivo: `ter objetos diferentes com campos que nao sao iguais, mas com mesmos metodosAcoes Poliformicos metodo com o memso nome que devolvem o mesmo tipo implementados diferentes - exemplo: objPai. carro ou moto . vao_Ter_Acao_Foo()`,
 				Molde: `cria-se uma interface com somente metodos que vai querer que os objetos que SEJAM UM DESTA INTERFACE tenham .
 
 				Obs: cada SubTipo tem que replicar um metodo com o mesmo nome da funcao definida na interface , vai ser polimorfico cada tipo pode implementar do seu jeito só tem que devolver o mesmo tipo prometido no contrato da interface ::

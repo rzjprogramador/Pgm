@@ -1,5 +1,4 @@
 -- UNIVERSAL ------
-This: da acesso aos campos do molde do objeto : Quer dizer DESTE_OBJETO dentro do escopo que voce esta.
 
 -- By Linguagem ----
 Metodo: para ter acesso aos campos do Molde o This sera a variavel dentro de aprenteses depois da clausula func ex: (f *Foo) este f é o this.
